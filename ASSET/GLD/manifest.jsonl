@@ -1,0 +1,1 @@
+{"path": "ASSET/GLD/bars_1d.parquet", "sha256": "8c4127c37a8edb98d31861c67e53c3527076041eedf4ae795972378a9350911c", "rows": 2839, "min_ts_date": "2015-01-02", "max_ts_date": "2026-04-17", "symbol": "GLD", "kind": "bars_1d", "source": "yfinance", "yfinance_ticker": "GLD", "written_at": "2026-04-19T21:16:21.661782+00:00"}

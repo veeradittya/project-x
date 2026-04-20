@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1280, initial-scale=1" />
+<title>Asset Ledger</title>
+<link rel="stylesheet" href="/static/css/app.css" />
+</head>
+<body>
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="head">
+        <div class="brand"><span class="dot">●</span>ASSET · LEDGER</div>
+
+        <div class="current" id="hdr-current">
+            <span class="sym" id="hdr-sym">—</span>
+            <span class="price num" id="hdr-price">—</span>
+            <span class="chg num" id="hdr-chg">—</span>
+        </div>
+
+        <div class="meta">
+            <div><span class="label">UTC</span><span class="num" id="hdr-utc">—</span></div>
+            <div><span class="label">ET</span><span class="num" id="hdr-et">—</span></div>
+            <div><span class="label">DB</span><span class="num" id="hdr-db">—</span></div>
+        </div>
+    </header>
+
+    <!-- SIDEBAR -->
+    <aside class="side">
+        <div class="side-head">
+            <span>Watchlist</span>
+            <span id="side-count">0</span>
+        </div>
+        <div class="side-progress" id="side-progress">
+            <!-- Tier progress bars filled in at runtime -->
+        </div>
+        <div class="side-filter">
+            <input type="text" id="side-search" placeholder="Filter symbol / name…" autocomplete="off" />
+        </div>
+        <div id="asset-list"></div>
+    </aside>
+
+    <!-- MAIN -->
+    <section class="main">
+
+        <!-- toolbar -->
+        <div class="toolbar">
+            <span class="group-label">TF</span>
+            <div class="tf-group" id="tf-group">
+                <button data-tf="1m">1m</button>
+                <button data-tf="5m">5m</button>
+                <button data-tf="15m">15m</button>
+                <button data-tf="30m">30m</button>
+                <button data-tf="1h">1h</button>
+                <button data-tf="4h">4h</button>
+                <button data-tf="1D" class="active">1D</button>
+                <button data-tf="1W">1W</button>
+            </div>
+            <div class="sep"></div>
+            <span class="group-label">IND</span>
+            <div class="ind-group" id="ind-group">
+                <button data-ind="sma20">SMA20</button>
+                <button data-ind="sma50">SMA50</button>
+                <button data-ind="sma200">SMA200</button>
+                <button data-ind="ema12">EMA12</button>
+                <button data-ind="ema26">EMA26</button>
+                <button data-ind="vwap">VWAP</button>
+                <button data-ind="bb20">BB20</button>
+                <button data-ind="rsi14">RSI</button>
+                <button data-ind="macd">MACD</button>
+                <button data-ind="stoch14">STOCH</button>
+            </div>
+            <div class="sep"></div>
+            <span class="group-label">TYPE</span>
+            <div class="type-group" id="type-group">
+                <button data-type="candles" class="active">CANDLES</button>
+                <button data-type="line">LINE</button>
+            </div>
+            <div class="sep"></div>
+            <span class="group-label">TZ</span>
+            <div class="tz-group" id="tz-group">
+                <button data-tz="UTC" class="active">UTC</button>
+                <button data-tz="ET">ET</button>
+            </div>
+            <div class="sep"></div>
+            <span class="group-label">EVENTS</span>
+            <div class="evt-group" id="evt-group">
+                <button data-evt="earnings">EARN</button>
+                <button data-evt="dividends">DIV</button>
+                <button data-evt="splits">SPLIT</button>
+            </div>
+        </div>
+
+        <!-- chart -->
+        <div class="chart-wrap">
+            <div class="chart-hud" id="hud">
+                <div class="row">
+                    <span><span class="k">O</span><span class="v" id="hud-o">—</span></span>
+                    <span><span class="k">H</span><span class="v" id="hud-h">—</span></span>
+                    <span><span class="k">L</span><span class="v" id="hud-l">—</span></span>
+                    <span><span class="k">C</span><span class="v" id="hud-c">—</span></span>
+                    <span><span class="k">Δ</span><span class="v" id="hud-chg">—</span></span>
+                </div>
+                <div class="row">
+                    <span><span class="k">V</span><span class="v" id="hud-v">—</span></span>
+                    <span><span class="k">VWAP</span><span class="v" id="hud-vwap">—</span></span>
+                    <span><span class="k">T</span><span class="v" id="hud-t">—</span></span>
+                </div>
+            </div>
+            <div class="legend" id="legend"></div>
+            <div id="panes">
+                <div class="pane pane-price">
+                    <div id="chart"></div>
+                </div>
+                <!-- RSI/MACD/STOCH panes are injected dynamically -->
+            </div>
+        </div>
+
+        <!-- panel with tabs -->
+        <div class="panel">
+            <div class="tabs" id="tabs">
+                <button data-tab="overview" class="active">Overview</button>
+                <button data-tab="stats">Statistics</button>
+                <button data-tab="events">Events</button>
+                <button data-tab="macro">Macro</button>
+                <button data-tab="metadata">Metadata</button>
+                <button data-tab="integrity">Integrity</button>
+                <button data-tab="raw">Raw Bars</button>
+            </div>
+            <div class="tab-body" id="tab-body">Loading…</div>
+        </div>
+
+        <!-- status -->
+        <div class="status">
+            <span>ASSET LEDGER v0.1</span>
+            <span id="status-sym">—</span>
+            <span id="status-tf">—</span>
+            <span id="status-bars">—</span>
+            <span class="right" id="status-clock">—</span>
+        </div>
+
+    </section>
+</div>
+
+<script src="/static/vendor/lightweight-charts.standalone.production.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

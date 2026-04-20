@@ -1,0 +1,1 @@
+{"path": "ASSET/QQQ/bars_1d.parquet", "sha256": "a2c68e69d1b996441214b5f31a17ab96cc1b1b60057e38b31b2d47483efc1e99", "rows": 2839, "min_ts_date": "2015-01-02", "max_ts_date": "2026-04-17", "symbol": "QQQ", "kind": "bars_1d", "source": "yfinance", "yfinance_ticker": "QQQ", "written_at": "2026-04-19T21:16:20.701714+00:00"}

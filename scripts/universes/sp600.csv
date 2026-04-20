@@ -1,0 +1,604 @@
+symbol,name,sector,hq,tier,fetched_at
+AAMI,Acadian Asset Management Inc.,Financials,"Boston, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+AAP,"Advance Auto Parts, Inc.",Consumer Discretionary,"Raleigh, North Carolina",sp600,2026-04-20T01:14:00+00:00
+AAT,American Assets Trust,Real Estate,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+ABCB,Ameris Bancorp,Financials,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+ABG,Asbury Automotive Group,Consumer Discretionary,"Duluth, Georgia",sp600,2026-04-20T01:14:00+00:00
+ABM,"ABM Industries, Inc.",Industrials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+ABR,Arbor Realty Trust,Financials,"Uniondale, New York",sp600,2026-04-20T01:14:00+00:00
+ACA,"Arcosa, Inc.",Industrials,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+ACAD,Acadia Pharmaceuticals,Health Care,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+ACHC,Acadia Healthcare,Health Care,"Franklin, Tennessee",sp600,2026-04-20T01:14:00+00:00
+ACIW,ACI Worldwide,Information Technology,"Miami, Florida",sp600,2026-04-20T01:14:00+00:00
+ACLS,"Axcelis Technologies, Inc.",Information Technology,"Beverly, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+ACMR,"ACM Research, Inc.",Information Technology,"Fremont, California",sp600,2026-04-20T01:14:00+00:00
+ACT,"Enact Holdings, Inc.",Financials,"Raleigh, North Carolina",sp600,2026-04-20T01:14:00+00:00
+ADAM,"Adamas Trust, Inc.",Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+ADEA,"Adeia, Inc.",Information Technology,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+ADMA,"ADMA Biologics, Inc.",Health Care,"Ramsey, New Jersey",sp600,2026-04-20T01:14:00+00:00
+ADNT,Adient,Consumer Discretionary,"Plymouth, Michigan",sp600,2026-04-20T01:14:00+00:00
+ADT,ADT Inc.,Consumer Discretionary,"Boca Raton, Florida",sp600,2026-04-20T01:14:00+00:00
+ADUS,Addus HomeCare Corp.,Health Care,"Frisco, Texas",sp600,2026-04-20T01:14:00+00:00
+AEO,American Eagle Outfitters,Consumer Discretionary,"Pittsburgh, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+AESI,"Atlas Energy Solutions, Inc.",Energy,"Austin, Texas",sp600,2026-04-20T01:14:00+00:00
+AGO,Assured Guaranty Ltd.,Financials,"Hamilton, Bermuda",sp600,2026-04-20T01:14:00+00:00
+AGX,"Argan, Inc.",Industrials,"Arlington County, Virginia",sp600,2026-04-20T01:14:00+00:00
+AGYS,"Agilysys, Inc.",Information Technology,"Alpharetta, Georgia",sp600,2026-04-20T01:14:00+00:00
+AHCO,AdaptHealth Corp.,Health Care,"Plymouth Meeting, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+AIN,Albany International Corp.,Industrials,"Rochester, New Hampshire",sp600,2026-04-20T01:14:00+00:00
+AIR,AAR CORP.,Industrials,"Wood Dale, Illinois",sp600,2026-04-20T01:14:00+00:00
+AKR,Acadia Realty Trust,Real Estate,"Rye, New York",sp600,2026-04-20T01:14:00+00:00
+ALG,Alamo Group,Industrials,"Seguin, Texas",sp600,2026-04-20T01:14:00+00:00
+ALGT,Allegiant Travel Company,Industrials,"Summerlin, Nevada",sp600,2026-04-20T01:14:00+00:00
+ALKS,Alkermes plc,Health Care,"Dublin, Ireland",sp600,2026-04-20T01:14:00+00:00
+ALRM,"Alarm.Com, Inc.",Financials,"Tysons, Virginia",sp600,2026-04-20T01:14:00+00:00
+AMN,"Amn Healthcare Services, Inc.",Health Care,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+AMPH,"Amphstar Pharmaceuticals, Inc.",Health Care,"Rancho Cucamonga, California",sp600,2026-04-20T01:14:00+00:00
+AMR,"Alpha Metallurgical Resources, Inc.",Materials,"Bristol, Tennessee",sp600,2026-04-20T01:14:00+00:00
+AMRX,Amneal Pharmaceuticals,Health Care,"Bridgewater Township, New Jersey",sp600,2026-04-20T01:14:00+00:00
+AMSF,"Amerisafe, Inc.",Financials,"DeRidder, Louisiana",sp600,2026-04-20T01:14:00+00:00
+AMTM,Amentum,Industrials,"Chantilly, Virginia",sp600,2026-04-20T01:14:00+00:00
+AMWD,American Woodmark Corp.,Industrials,"Winchester, Virginia",sp600,2026-04-20T01:14:00+00:00
+ANDE,"The Andersons, Inc.",Consumer Staples,"Maumee, Ohio",sp600,2026-04-20T01:14:00+00:00
+ANIP,"ANI Pharmaceuticals, Inc.",Health Care,"Baudette, Minnesota",sp600,2026-04-20T01:14:00+00:00
+AORT,Artivion,Health Care,"Kennesaw, Georgia",sp600,2026-04-20T01:14:00+00:00
+AOSL,"Alpha and Omega Semiconductor, Ltd.",Information Technology,"Sunnyvale, California",sp600,2026-04-20T01:14:00+00:00
+APAM,"Artisan Partners Asset Management, Inc.",Financials,"Milwaukee, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+APLE,"Apple Hospitality REIT, Inc.",Real Estate,"Richmond, Virginia",sp600,2026-04-20T01:14:00+00:00
+APLS,"Apellis Pharmaceuticals, Inc.",Health Care,"Waltham, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+APOG,"Apogee Enterprises, Inc.",Industrials,"Minneapolis, Minnesota",sp600,2026-04-20T01:14:00+00:00
+ARCB,ArcBest Corp.,Industrials,"Fort Smith, Arkansas",sp600,2026-04-20T01:14:00+00:00
+ARI,Apollo Commercial Real Estate Finance,Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+ARLO,Arlo Technologies,Information Technology,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+AROC,"Archrock, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+ARR,Armour Residential REIT,Real Estate,"Vero Beach, Florida",sp600,2026-04-20T01:14:00+00:00
+ASGN,ASGN Inc.,Information Technology,"Glen Allen, Virginia",sp600,2026-04-20T01:14:00+00:00
+ASO,Academy Sports + Outdoors,Consumer Discretionary,"Harris County, Texas",sp600,2026-04-20T01:14:00+00:00
+ASTE,"Astec Industries, Inc.",Industrials,"Chattanooga, Tennessee",sp600,2026-04-20T01:14:00+00:00
+ASTH,"Astrana Health, Inc.",Health Care,"Alhambra, California",sp600,2026-04-20T01:14:00+00:00
+ATEN,"A10 Networks, Inc.",Information Technology,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+ATMU,Atmus Filtration Technologies Inc.,Industrials,"Nashville, Tennessee",sp600,2026-04-20T01:14:00+00:00
+AUB,"Atlantic Union Bankshares, Corp.",Financials,"Richmond, Virginia",sp600,2026-04-20T01:14:00+00:00
+AVA,Avista Corporation,Utilities,"Spokane, Washington",sp600,2026-04-20T01:14:00+00:00
+AVNS,"Avanos Medical, Inc.",Health Care,"Alpharetta, Georgia",sp600,2026-04-20T01:14:00+00:00
+AWI,"Armstrong World Industries, Inc.",Industrials,"Lancaster, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+AWR,American States Water Company,Utilities,"San Dimas, California",sp600,2026-04-20T01:14:00+00:00
+AX,"Axos Financial, Inc.",Financials,"Las Vegas, Nevada",sp600,2026-04-20T01:14:00+00:00
+AZTA,"Azenta, Inc.",Health Care,"Chelmsford, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+AZZ,"AZZ, Inc.",Industrials,"Fort Worth, Texas",sp600,2026-04-20T01:14:00+00:00
+BANC,"Banc Of California, Inc.",Financials,"Santa Ana, California",sp600,2026-04-20T01:14:00+00:00
+BANF,Bancfirst Corp,Financials,"Oklahoma City, Oklahoma",sp600,2026-04-20T01:14:00+00:00
+BANR,Banner Corporation,Financials,"Walla Walla, Washington",sp600,2026-04-20T01:14:00+00:00
+BBT,Beacon Financial Corp.,Financials,"Boston, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+BCC,Boise Cascade,Industrials,"Boise, Idaho",sp600,2026-04-20T01:14:00+00:00
+BCPC,Balchem Corporation,Materials,"Montvale, New Jersey",sp600,2026-04-20T01:14:00+00:00
+BFH,"Bread Financial Holdings, Inc.",Financials,"Columbus, Ohio",sp600,2026-04-20T01:14:00+00:00
+BFS,"Saul Centers, Inc.",Real Estate,"Bethesda, Maryland",sp600,2026-04-20T01:14:00+00:00
+BGC,"BGC Group, Inc.",Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+BHE,"Benchmark Electronics, Inc.",Information Technology,"Tempe, Arizona",sp600,2026-04-20T01:14:00+00:00
+BJRI,"BJ's Restaurants, Inc.",Consumer Discretionary,"Huntington Beach, California",sp600,2026-04-20T01:14:00+00:00
+BKE,"The Buckle, Inc.",Consumer Discretionary,"Kearney, Nebraska",sp600,2026-04-20T01:14:00+00:00
+BKU,"BankUnited, Inc.",Financials,"Miami Lakes, Florida",sp600,2026-04-20T01:14:00+00:00
+BL,"BlackLine Systems, Inc.",Information Technology,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+BLFS,"BioLife Solutions, Inc.",Health Care,"Bothell, Washington",sp600,2026-04-20T01:14:00+00:00
+BMI,"Badger Meter, Inc.",Information Technology,"Milwaukee, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+BNL,"Broadstone Net Lease, Inc.",Real Estate,"Victor, New York",sp600,2026-04-20T01:14:00+00:00
+BOH,Bank of Hawaii,Financials,"Honolulu, Hawaii",sp600,2026-04-20T01:14:00+00:00
+BOOT,"Boot Barn Holdings, Inc.",Consumer Discretionary,"Irvine, California",sp600,2026-04-20T01:14:00+00:00
+BOX,"Box, Inc.",Information Technology,"Redwood City, California",sp600,2026-04-20T01:14:00+00:00
+BRC,Brady Corporation,Industrials,"Milwaukee, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+BTSG,"BrightSpring Health Services, Inc.",Health Care,"Louisville, Kentucky",sp600,2026-04-20T01:14:00+00:00
+BTU,"Peabody Energy, Inc.",Energy,"St. Louis, Missouri",sp600,2026-04-20T01:14:00+00:00
+BXMT,"Blackstone Mortgage Trust, Inc.",Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+CABO,Cable One,Communication Services,"Phoenix, Arizona",sp600,2026-04-20T01:14:00+00:00
+CAKE,"The Cheesecake Factory, Inc.",Consumer Discretionary,"Calabasas, California",sp600,2026-04-20T01:14:00+00:00
+CALM,"Cal-Maine Foods, Inc.",Consumer Staples,"Jackson, Mississippi",sp600,2026-04-20T01:14:00+00:00
+CALX,Calix,Information Technology,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+CALY,Callaway Golf Company,Consumer Discretionary,"Carlsbad, California",sp600,2026-04-20T01:14:00+00:00
+CARG,CarGurus,Communication Services,"Cambridge, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+CASH,"Pathward Financial, Inc.",Financials,"Sioux Falls, South Dakota",sp600,2026-04-20T01:14:00+00:00
+CATY,Cathay General Bancorp,Financials,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+CBRL,Cracker Barrel,Consumer Discretionary,"Lebanon, Tennessee",sp600,2026-04-20T01:14:00+00:00
+CBU,"Community Bank System, Inc.",Financials,"DeWitt, New York",sp600,2026-04-20T01:14:00+00:00
+CC,Chemours,Materials,"Wilmington, Delaware",sp600,2026-04-20T01:14:00+00:00
+CCOI,"Cogent Communications Holdings, Inc.",Communication Services,"Washington, D.C.",sp600,2026-04-20T01:14:00+00:00
+CCS,"Century Communities, Inc.",Consumer Discretionary,"Greenwood Village, Colorado",sp600,2026-04-20T01:14:00+00:00
+CE,Celanese,Materials,"Irving, Texas",sp600,2026-04-20T01:14:00+00:00
+CENT,Central Garden & Pet Company,Consumer Staples,"Walnut Creek, California",sp600,2026-04-20T01:14:00+00:00
+CENTA,Central Garden & Pet Company (Class A),Consumer Staples,"Walnut Creek, California",sp600,2026-04-20T01:14:00+00:00
+CENX,Century Aluminum Company,Materials,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+CERT,"Certara, Inc.",Health Care,"Princeton, New Jersey",sp600,2026-04-20T01:14:00+00:00
+CFFN,Capitol Federal Savings Bank,Financials,"Topeka, Kansas",sp600,2026-04-20T01:14:00+00:00
+CHCO,City Holding Company,Financials,"Charleston, West Virginia",sp600,2026-04-20T01:14:00+00:00
+CHEF,"Chefs' Warehouse, Inc.",Consumer Staples,"Ridgefield, Connecticut",sp600,2026-04-20T01:14:00+00:00
+CLB,Core Laboratories,Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+CLSK,"CleanSpark, Inc.",Information Technology,"Henderson, Nevada",sp600,2026-04-20T01:14:00+00:00
+CNK,"Cinemark Holdings, Inc.",Communication Services,"Plano, Texas",sp600,2026-04-20T01:14:00+00:00
+CNMD,CONMED Corporation,Health Care,"Largo, Florida",sp600,2026-04-20T01:14:00+00:00
+CNR,"Core Natural Resources, Inc.",Energy,"Cecil Township, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+CNS,"Cohen & Steers, Inc.",Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+CNXN,"PC Connection, Inc.",Information Technology,"Merrimack, New Hampshire",sp600,2026-04-20T01:14:00+00:00
+COCO,The Vita Coco Company,Consumer Staples,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+COHU,"Cohu, Inc.",Information Technology,"Poway, California",sp600,2026-04-20T01:14:00+00:00
+COLL,"Collegium Pharmaceutical, Inc.",Health Care,"Stoughton, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+CON,"Concentra Group Holdings Parent, Inc.",Health Care,"Mechanicsburg, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+CORT,Corcept Therapeutics Incorporated,Health Care,"Menlo Park, California",sp600,2026-04-20T01:14:00+00:00
+CPF,Central Pacific Financial Corp.,Financials,"Honolulu, Hawaii",sp600,2026-04-20T01:14:00+00:00
+CPK,Chesapeake Utilities Corp.,Utilities,"Dover, Delaware",sp600,2026-04-20T01:14:00+00:00
+CPRX,"Catalyst Pharmaceuticals Partners, Inc.",Health Care,"Coral Gables, Florida",sp600,2026-04-20T01:14:00+00:00
+CRC,California Resources Corporation,Energy,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+CRGY,Crescent Energy Company,Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+CRI,"Carter's, Inc.",Consumer Discretionary,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+CRK,"Comstock Resources, Inc.",Energy,"Frisco, Texas",sp600,2026-04-20T01:14:00+00:00
+CRSR,Corsair Gaming,Information Technology,"Milpitas, California",sp600,2026-04-20T01:14:00+00:00
+CRVL,CorVel Corporation,Health Care,"Irvine, California",sp600,2026-04-20T01:14:00+00:00
+CSGS,"CSG Systems International, Inc.",Industrials,"Greenwood Village, Colorado",sp600,2026-04-20T01:14:00+00:00
+CSR,Centerspace Trust,Real Estate,"Minot, North Dakota",sp600,2026-04-20T01:14:00+00:00
+CSW,"CSW Industrials, Inc.",Industrials,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+CTKB,"Cytek Biosciences, Inc.",Health Care,"Fremont, California",sp600,2026-04-20T01:14:00+00:00
+CTS,CTS Corporation,Information Technology,"Lisle, Illinois",sp600,2026-04-20T01:14:00+00:00
+CUBI,"Customers Bancorp, Inc.",Financials,"Reading, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+CURB,Curbline Properties Corp.,Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+CVBF,CVB Financial Corp.,Financials,"Ontario, California",sp600,2026-04-20T01:14:00+00:00
+CVCO,"Cavco Industries, Inc.",Consumer Discretionary,"Phoenix, Arizona",sp600,2026-04-20T01:14:00+00:00
+CVI,"CVR Energy, Inc.",Energy,"Sugar Land, Texas",sp600,2026-04-20T01:14:00+00:00
+CVSA,Covista Inc.,Consumer Discretionary,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+CWEN,"Clearway Energy, Inc. (Class C)",Utilities,"Princeton, New Jersey",sp600,2026-04-20T01:14:00+00:00
+CWEN.A,"Clearway Energy, Inc. (Class A)",Utilities,"Princeton, New Jersey",sp600,2026-04-20T01:14:00+00:00
+CWK,Cushman & Wakefield plc,Real Estate,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+CWST,"Casella Waste Systems, Inc.",Industrials,"Rutland, Vermont",sp600,2026-04-20T01:14:00+00:00
+CWT,California Water Service Group,Utilities,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+CXM,"Sprinklr, Inc.",Information Technology,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+CXW,CoreCivic,Industrials,"Brentwood, Tennessee",sp600,2026-04-20T01:14:00+00:00
+CZR,Caesars Entertainment,Consumer Discretionary,"Reno, Nevada",sp600,2026-04-20T01:14:00+00:00
+DAN,Dana Incorporated,Consumer Discretionary,"Maumee, Ohio",sp600,2026-04-20T01:14:00+00:00
+DBD,Diebold Nixdorf,Information Technology,"North Canton, Ohio",sp600,2026-04-20T01:14:00+00:00
+DCH,Dauch Corporation,Consumer Discretionary,"Detroit, Michigan",sp600,2026-04-20T01:14:00+00:00
+DCOM,"Dime Community Bancshares, Inc.",Financials,"Hauppauge, New York",sp600,2026-04-20T01:14:00+00:00
+DEA,"Easterly Government Properties, Inc.",Real Estate,"Washington, D.C.",sp600,2026-04-20T01:14:00+00:00
+DEI,Douglas Emmett,Real Estate,"Santa Monica, California",sp600,2026-04-20T01:14:00+00:00
+DFH,"Dream Finders Homes, Inc.",Consumer Discretionary,"Jacksonville, Florida",sp600,2026-04-20T01:14:00+00:00
+DFIN,"Donnelley Financial Solutions, Inc.",Financials,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+DGII,Digi International Inc.,Information Technology,"Hopkins, Minnesota",sp600,2026-04-20T01:14:00+00:00
+DIOD,Diodes Incorporated,Information Technology,"Plano, Texas",sp600,2026-04-20T01:14:00+00:00
+DLX,Deluxe Corporation,Industrials,"Minneapolis, Minnesota",sp600,2026-04-20T01:14:00+00:00
+DNOW,NOW Inc,Industrials,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+DORM,"Dorman Products, Inc.",Consumer Discretionary,"Colmar, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+DRH,DiamondRock Hospitality Company,Real Estate,"Bethesda, Maryland",sp600,2026-04-20T01:14:00+00:00
+DV,"DoubleVerify Holdings, Inc.",Communication Services,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+DXC,DXC Technology,Information Technology,"Ashburn, Virginia",sp600,2026-04-20T01:14:00+00:00
+DXPE,"DXP Enterprises, Inc.",Industrials,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+EAT,"Brinker International, Inc.",Consumer Discretionary,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+ECG,"Everus Construction Group, Inc.",Industrials,"Bismarck, North Dakota",sp600,2026-04-20T01:14:00+00:00
+ECPG,"Encore Capital Group, Inc.",Financials,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+EFC,"Ellington Financial, Inc.",Financials,"Greenwich, Connecticut",sp600,2026-04-20T01:14:00+00:00
+EGBN,Eagle Bancorp Inc,Financials,"Bethesda, Maryland",sp600,2026-04-20T01:14:00+00:00
+EIG,"Employers Holdings, Inc.",Financials,"Henderson, Nevada",sp600,2026-04-20T01:14:00+00:00
+EMBC,Embecta Corp.,Health Care,"Parsippany, New Jersey",sp600,2026-04-20T01:14:00+00:00
+EMN,Eastman Chemical Company,Materials,"Kingsport, Tennessee",sp600,2026-04-20T01:14:00+00:00
+ENOV,Enovis,Health Care,"Wilmington, Delaware",sp600,2026-04-20T01:14:00+00:00
+ENPH,Enphase Energy,Information Technology,"Fremont, California",sp600,2026-04-20T01:14:00+00:00
+ENR,Energizer,Consumer Staples,"St. Louis, Missouri",sp600,2026-04-20T01:14:00+00:00
+ENVA,"Enova International, Inc.",Financials,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+EPAC,Enerpac Tool Group,Industrials,"Menomonee Falls, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+EPC,Edgewell Personal Care,Consumer Staples,"Shelton, Connecticut",sp600,2026-04-20T01:14:00+00:00
+EPRT,"Essential Properties Realty Trust, Inc.",Real Estate,"Princeton, New Jersey",sp600,2026-04-20T01:14:00+00:00
+ESE,ESCO Technologies Inc.,Industrials,"St. Louis, Missouri",sp600,2026-04-20T01:14:00+00:00
+ESI,Element Solutions,Materials,"Fort Lauderdale, Florida",sp600,2026-04-20T01:14:00+00:00
+ETD,"Ethan Allen Interiors, Inc.",Consumer Discretionary,"Danbury, Connecticut",sp600,2026-04-20T01:14:00+00:00
+ETSY,Etsy,Consumer Discretionary,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+EVTC,"EVERTEC, Inc.",Financials,"San Juan, Puerto Rico",sp600,2026-04-20T01:14:00+00:00
+EXPI,"eXp World Holdings, Inc.",Real Estate,"Bellingham, Washington",sp600,2026-04-20T01:14:00+00:00
+EXTR,"Extreme Networks, Inc.",Information Technology,"Morrisville, North Carolina",sp600,2026-04-20T01:14:00+00:00
+EYE,National Vision Holdings,Consumer Discretionary,"Duluth, Georgia",sp600,2026-04-20T01:14:00+00:00
+EZPW,"EZCORP, Inc.",Financials,"Austin, Texas",sp600,2026-04-20T01:14:00+00:00
+FBK,FB Financial Corp.,Financials,"Nashville, Tennessee",sp600,2026-04-20T01:14:00+00:00
+FBNC,First Bancorp (Southern Pines NC),Financials,"Southern Pines, North Carolina",sp600,2026-04-20T01:14:00+00:00
+FBP,First BanCorp (Puerto Rico),Financials,"San Juan, Puerto Rico",sp600,2026-04-20T01:14:00+00:00
+FBRT,"Franklin BSP Realty Trust, Inc.",Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+FCF,"First Commonwealth Financial, Corp.",Financials,"Indiana, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+FCPT,"Four Corners Property Trust, Inc.",Real Estate,"Mill Valley, California",sp600,2026-04-20T01:14:00+00:00
+FDP,"Fresh Del Monte Produce, Inc.",Consumer Staples,"Coral Gables, Florida",sp600,2026-04-20T01:14:00+00:00
+FELE,Franklin Electric,Industrials,"Fort Wayne, Indiana",sp600,2026-04-20T01:14:00+00:00
+FFBC,First Financial Bancorp.,Financials,"Cincinnati, Ohio",sp600,2026-04-20T01:14:00+00:00
+FHB,"First Hawaiian, Inc.",Financials,"Honolulu, Hawaii",sp600,2026-04-20T01:14:00+00:00
+FIBK,"First Interstate BancSystem, Inc.",Financials,"Billings, Montana",sp600,2026-04-20T01:14:00+00:00
+FIZZ,National Beverage Corp.,Consumer Staples,"Fort Lauderdale, Florida",sp600,2026-04-20T01:14:00+00:00
+FMC,FMC Corporation,Materials,"Philadelphia, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+FORM,"FormFactor, Inc.",Information Technology,"Livermore, California",sp600,2026-04-20T01:14:00+00:00
+FOXF,Fox Factory,Consumer Discretionary,"Duluth, Georgia",sp600,2026-04-20T01:14:00+00:00
+FRPT,Freshpet,Consumer Staples,"Bedminster, New Jersey",sp600,2026-04-20T01:14:00+00:00
+FSS,Federal Signal Corporation,Industrials,"Oak Brook, Illinois",sp600,2026-04-20T01:14:00+00:00
+FTDR,"Frontdoor, Inc.",Consumer Discretionary,"Memphis, Tennessee",sp600,2026-04-20T01:14:00+00:00
+FTRE,Fortrea,Health Care,"Durham, North Carolina",sp600,2026-04-20T01:14:00+00:00
+FUL,H.B. Fuller Company,Materials,"Vadnais Heights, Minnesota",sp600,2026-04-20T01:14:00+00:00
+FULT,Fulton Financial Corporation,Financials,"Lancaster, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+FUN,Six Flags,Consumer Discretionary,"Charlotte, North Carolina",sp600,2026-04-20T01:14:00+00:00
+FWRD,Forward Air Corp.,Industrials,"Greeneville, Tennessee",sp600,2026-04-20T01:14:00+00:00
+GBX,"The Greenbrier Companies, Inc.",Industrials,"Lake Oswego, Oregon",sp600,2026-04-20T01:14:00+00:00
+GDEN,Golden Entertainment,Consumer Discretionary,"Enterprise, Nevada",sp600,2026-04-20T01:14:00+00:00
+GDYN,"Grid Dynamics Holdings, Inc.",Information Technology,"San Ramon, California",sp600,2026-04-20T01:14:00+00:00
+GEO,"GEO Group, Inc.",Industrials,"Boca Raton, Florida",sp600,2026-04-20T01:14:00+00:00
+GFF,Griffon Corporation,Industrials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+GIII,"G-III Apparel Group, Ltd.",Consumer Discretionary,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+GKOS,Glaukos Corp.,Health Care,"San Clemente, California",sp600,2026-04-20T01:14:00+00:00
+GNL,"Global Net Lease, Inc.",Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+GNW,"Genworth Financial, Inc.",Financials,"Henrico County, Virginia",sp600,2026-04-20T01:14:00+00:00
+GO,Grocery Outlet,Consumer Staples,"Emeryville, California",sp600,2026-04-20T01:14:00+00:00
+GOGO,"Gogo, Inc.",Communication Services,"Broomfield, Colorado",sp600,2026-04-20T01:14:00+00:00
+GOLF,Acushnet Company,Consumer Discretionary,"Fairhaven, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+GPI,"Group 1 Automotive, Inc.",Consumer Discretionary,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+GRBK,"Green Brick Partners, Inc.",Consumer Discretionary,"Plano, Texas",sp600,2026-04-20T01:14:00+00:00
+GSHD,"Goosehead Insurance, Inc.",Financials,"Westlake, Texas",sp600,2026-04-20T01:14:00+00:00
+GTES,Gates Corporation,Industrials,"Denver, Colorado",sp600,2026-04-20T01:14:00+00:00
+GTM,ZoomInfo,Communication Services,"Vancouver, Washington",sp600,2026-04-20T01:14:00+00:00
+GTY,Getty Realty Corp.,Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+GVA,"Granite Construction, Inc.",Industrials,"Watsonville, California",sp600,2026-04-20T01:14:00+00:00
+HAFC,Hanmi Financial Corporation,Financials,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+HASI,"Hannon Armstrong Sustainable Infrastructure Capital, Inc.",Financials,"Annapolis, Maryland",sp600,2026-04-20T01:14:00+00:00
+HAYW,"Hayward Holdings, Inc.",Industrials,"Charlotte, North Carolina",sp600,2026-04-20T01:14:00+00:00
+HCC,"Warrior Met Coal, Inc.",Materials,"Brookwood, Alabama",sp600,2026-04-20T01:14:00+00:00
+HCI,"HCI Group, Inc.",Financials,"Tampa, Florida",sp600,2026-04-20T01:14:00+00:00
+HCSG,"Healthcare Services Group, Inc.",Industrials,"Bensalem Township, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+HE,"Hawaiian Electric Industries, Inc.",Utilities,"Honolulu, Hawaii",sp600,2026-04-20T01:14:00+00:00
+HFWA,Heritage Financial Corporation,Health Care,"Olympia, Washington",sp600,2026-04-20T01:14:00+00:00
+HIW,Highwoods Properties,Real Estate,"Raleigh, North Carolina",sp600,2026-04-20T01:14:00+00:00
+HLIT,Harmonic Inc.,Information Technology,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+HLX,"Helix Energy Solutions Group, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+HMN,Horace Mann Educators Corporation,Financials,"Springfield, Illinois",sp600,2026-04-20T01:14:00+00:00
+HNI,HNI Corporation,Industrials,"Muscatine, Iowa",sp600,2026-04-20T01:14:00+00:00
+HOPE,"Hope Bancorp, Inc.",Financials,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+HP,"Helmerich & Payne, Inc.",Energy,"Tulsa, Oklahoma",sp600,2026-04-20T01:14:00+00:00
+HRMY,"Harmony Biosciences Holdings, Inc.",Health Care,"Plymouth Meeting, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+HSTM,"HealthStream, Inc.",Health Care,"Nashville, Tennessee",sp600,2026-04-20T01:14:00+00:00
+HTH,Hilltop Holdings Inc.,Financials,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+HTLD,"Heartland Express, Inc.",Industrials,"North Liberty, Iowa",sp600,2026-04-20T01:14:00+00:00
+HTO,H2O America,Utilities,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+HTZ,Hertz,Industrials,"Estero, Florida",sp600,2026-04-20T01:14:00+00:00
+HUBG,"Hub Group, Inc.",Industrials,"Oak Brook, Illinois",sp600,2026-04-20T01:14:00+00:00
+HWKN,"Hawkins, Inc.",Materials,"Roseville, Minnesota",sp600,2026-04-20T01:14:00+00:00
+HZO,"MarineMax, Inc.",Consumer Discretionary,"Clearwater, Florida",sp600,2026-04-20T01:14:00+00:00
+IAC,IAC Inc.,Communication Services,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+IART,Integra Lifesciences Holdings,Health Care,"Princeton, New Jersey",sp600,2026-04-20T01:14:00+00:00
+IBP,"Installed Building Products, Inc.",Consumer Discretionary,"Columbus, Ohio",sp600,2026-04-20T01:14:00+00:00
+ICHR,"Ichor Holdings, Ltd.",Information Technology,"Fremont, California",sp600,2026-04-20T01:14:00+00:00
+ICUI,ICU Medical,Health Care,"San Clemente, California",sp600,2026-04-20T01:14:00+00:00
+IIIN,"Insteel Industries, Inc.",Industrials,"Mount Airy, North Carolina",sp600,2026-04-20T01:14:00+00:00
+IIPR,"Innovative Industrial Properties, Inc.",Real Estate,"Park City, Utah",sp600,2026-04-20T01:14:00+00:00
+INDB,Independent Bank Corp.,Financials,"Rockland, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+INDV,Indivior,Health Care,"Chesterfield County, Virginia",sp600,2026-04-20T01:14:00+00:00
+INSP,"Inspire Medical Systems, Inc.",Health Care,"Golden Valley, Minnesota",sp600,2026-04-20T01:14:00+00:00
+INSW,"International Seaways, Inc.",Energy,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+INVA,"Innoviva, Inc.",Health Care,"Burlingame, California",sp600,2026-04-20T01:14:00+00:00
+INVX,"Innovex International, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+IOSP,"Innospec, Inc.",Materials,"Englewood, Colorado",sp600,2026-04-20T01:14:00+00:00
+IPAR,"Inter Parfums, Inc.",Consumer Staples,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+IRDM,Iridium Communications,Communication Services,"McLean, Virginia",sp600,2026-04-20T01:14:00+00:00
+ITGR,Integer Holdings Corporation,Health Care,"Plano, Texas",sp600,2026-04-20T01:14:00+00:00
+ITRI,"Itron, Inc.",Information Technology,"Liberty Lake, Washington",sp600,2026-04-20T01:14:00+00:00
+JBGS,JBG Smith,Real Estate,"Bethesda, Maryland",sp600,2026-04-20T01:14:00+00:00
+JBLU,JetBlue,Industrials,"Long Island City, New York",sp600,2026-04-20T01:14:00+00:00
+JBSS,"John B. Sanfilippo & Son, Inc.",Consumer Staples,"Elgin, Illinois",sp600,2026-04-20T01:14:00+00:00
+JBTM,JBT Marel Corporation,Industrials,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+JJSF,J&J Snack Foods Corp.,Consumer Staples,"Pennsauken Township, New Jersey",sp600,2026-04-20T01:14:00+00:00
+JOE,St. Joe Company,Real Estate,"Panama City Beach, Florida",sp600,2026-04-20T01:14:00+00:00
+JXN,"Jackson Financial, Inc.",Financials,"Lansing, Michigan",sp600,2026-04-20T01:14:00+00:00
+KAI,Kadant Inc.,Industrials,"Westford, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+KALU,Kaiser Aluminum Corporation,Materials,"Franklin, Tennessee",sp600,2026-04-20T01:14:00+00:00
+OPLN,"OPENLANE, Inc.",Industrials,"Carmel, Indiana",sp600,2026-04-20T01:14:00+00:00
+KFY,Korn/Ferry International,Industrials,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+KGS,"Kodiak Gas Services, Inc.",Energy,"The Woodlands, Texas",sp600,2026-04-20T01:14:00+00:00
+KLIC,"Kulicke and Soffa Industries, Inc.",Information Technology,"Serangoon, North-East Region, Singapore",sp600,2026-04-20T01:14:00+00:00
+KMPR,Kemper Corporation,Financials,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+KMT,Kennametal,Industrials,"Pittsburgh, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+KMX,"CarMax, Inc.",Consumer Discretionary,"Richmond, Virginia",sp600,2026-04-20T01:14:00+00:00
+KN,Knowles Corporation,Information Technology,"Itasca, Illinois",sp600,2026-04-20T01:14:00+00:00
+KNTK,"Kinetik Holdings, Inc.",Energy,"Midland, Texas",sp600,2026-04-20T01:14:00+00:00
+KOP,"Koppers Holdings, Inc.",Materials,"Pittsburgh, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+KRYS,"Krystal Biotech, Inc.",Health Care,"Pittsburgh, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+KSS,Kohl's Corp.,Consumer Discretionary,"Menomonee Falls, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+KTB,Kontoor Brands,Consumer Discretionary,"Greensboro, North Carolina",sp600,2026-04-20T01:14:00+00:00
+KW,"Kennedy-Wilson Holdings, Inc.",Real Estate,"Beverly Hills, California",sp600,2026-04-20T01:14:00+00:00
+KWR,Quaker Chemical Corporation,Materials,"Conshohocken, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+LAUR,"Laureate Education, Inc.",Consumer Discretionary,"Miami, Florida",sp600,2026-04-20T01:14:00+00:00
+LBRT,"Liberty Energy, Inc.",Energy,"Denver, Colorado",sp600,2026-04-20T01:14:00+00:00
+LCII,LCI Industries,Consumer Discretionary,"Elkhart, Indiana",sp600,2026-04-20T01:14:00+00:00
+LEG,Leggett & Platt,Consumer Discretionary,"Carthage, Missouri",sp600,2026-04-20T01:14:00+00:00
+LGIH,LGI Homes,Consumer Discretionary,"The Woodlands, Texas",sp600,2026-04-20T01:14:00+00:00
+LIF,Life360,Information Technology,"San Mateo, California",sp600,2026-04-20T01:14:00+00:00
+LGND,"Ligand Pharmaceuticals, Inc.",Health Care,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+LKFN,Lakeland Financial,Financials,"Warsaw, Indiana",sp600,2026-04-20T01:14:00+00:00
+LKQ,LKQ Corporation,Consumer Discretionary,"Nashville, Tennessee",sp600,2026-04-20T01:14:00+00:00
+LMAT,LeMaitre Vascular,Health Care,"Burlington, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+LNC,Lincoln Financial,Financials,"Radnor, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+LNN,Lindsay Corporation,Materials,"Omaha, Nebraska",sp600,2026-04-20T01:14:00+00:00
+LPG,Dorian LPG Ltd.,Energy,"Stamford, Connecticut",sp600,2026-04-20T01:14:00+00:00
+LQDT,"Liquidity Services, Inc.",Industrials,"Bethesda, Maryland",sp600,2026-04-20T01:14:00+00:00
+LRN,"Stride, Inc.",Consumer Discretionary,"Herndon, Virginia",sp600,2026-04-20T01:14:00+00:00
+LTC,"LTC Properties, Inc.",Real Estate,"Westlake Village, California",sp600,2026-04-20T01:14:00+00:00
+LTH,"Life Time Group Holdings, Inc.",Consumer Discretionary,"Chanhassen, Minnesota",sp600,2026-04-20T01:14:00+00:00
+LUMN,Lumen Technologies,Communication Services,"Monroe, Louisiana",sp600,2026-04-20T01:14:00+00:00
+LW,Lamb Weston,Consumer Staples,"Eagle, Idaho",sp600,2026-04-20T01:14:00+00:00
+LXP,Lexington Realty Trust,Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+LYFT,"Lyft, Inc.",Industrials,"San Francisco, California",sp600,2026-04-20T01:14:00+00:00
+LZ,"LegalZoom.com, Inc.",Industrials,"Mountain View, California",sp600,2026-04-20T01:14:00+00:00
+LZB,"La-Z-Boy, Inc.",Consumer Discretionary,"Monroe, Michigan",sp600,2026-04-20T01:14:00+00:00
+MAC,Macerich,Real Estate,"Santa Monica, California",sp600,2026-04-20T01:14:00+00:00
+MAN,ManpowerGroup,Industrials,"Milwaukee, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+MARA,"MARA Holdings, Inc.",Information Technology,"Fort Lauderdale, Florida",sp600,2026-04-20T01:14:00+00:00
+MATW,Matthews International Corporation,Consumer Discretionary,"Pittsburgh, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+MATX,"Matson, Inc.",Industrials,"Honolulu, Hawaii",sp600,2026-04-20T01:14:00+00:00
+MBC,"MasterBrand, Inc.",Industrials,"Jasper, Indiana",sp600,2026-04-20T01:14:00+00:00
+MBIN,Merchants Bancorp,Financials,"Carmel, Indiana",sp600,2026-04-20T01:14:00+00:00
+MC,Moelis & Company,Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+MCRI,"Monarch Casino & Resort, Inc.",Consumer Discretionary,"Reno, Nevada",sp600,2026-04-20T01:14:00+00:00
+MCW,"Mister Car Wash, Inc.",Consumer Discretionary,"Tucson, Arizona",sp600,2026-04-20T01:14:00+00:00
+MCY,Mercury General,Financials,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+MD,Pediatrix Medical Group,Health Care,"Sunrise, Florida",sp600,2026-04-20T01:14:00+00:00
+MDU,"MDU Resources Group, Inc.",Utilities,"Bismarck, North Dakota",sp600,2026-04-20T01:14:00+00:00
+MGEE,"MGE Energy, Inc.",Utilities,"Madison, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+MGY,"Magnolia Oil & Gas, Corp.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+MHK,Mohawk Industries,Consumer Discretionary,"Calhoun, Georgia",sp600,2026-04-20T01:14:00+00:00
+MHO,"M/I Homes, Inc.",Consumer Discretionary,"Columbus, Ohio",sp600,2026-04-20T01:14:00+00:00
+MIR,"Mirion Technologies, Inc.",Information Technology,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+MKTX,MarketAxess,Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+MLKN,"MillerKnoll, Inc.",Industrials,"Zeeland, Michigan",sp600,2026-04-20T01:14:00+00:00
+MMI,"Marcus & Millichap, Inc.",Real Estate,"Calabasas, California",sp600,2026-04-20T01:14:00+00:00
+MMSI,"Merit Medical Systems, Inc.",Health Care,"South Jordan, Utah",sp600,2026-04-20T01:14:00+00:00
+MNRO,"Monro, Inc.",Consumer Discretionary,"Rochester, New York",sp600,2026-04-20T01:14:00+00:00
+MOH,Molina Healthcare,Health Care,"Long Beach, California",sp600,2026-04-20T01:14:00+00:00
+MPT,Medical Properties Trust,Real Estate,"Birmingham, Alabama",sp600,2026-04-20T01:14:00+00:00
+MRCY,Mercury Systems,Industrials,"Andover, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+MRP,"Millrose Properties, Inc.",Real Estate,"Chevy Chase, Maryland",sp600,2026-04-20T01:14:00+00:00
+MRTN,"Marten Transport, Ltd.",Industrials,"Mondovi, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+MSEX,Middlesex Water Company,Utilities,"Iselin, New Jersey",sp600,2026-04-20T01:14:00+00:00
+MSGS,Madison Square Garden Sports Corp.,Communication Services,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+MTCH,Match Group,Communication Services,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+MTH,Meritage Homes Corporation,Consumer Discretionary,"Scottsdale, Arizona",sp600,2026-04-20T01:14:00+00:00
+MTRN,Materion Corp.,Materials,"Mayfield Heights, Ohio",sp600,2026-04-20T01:14:00+00:00
+MTUS,Metallus Inc,Materials,"Canton, Ohio",sp600,2026-04-20T01:14:00+00:00
+MTX,Minerals Technologies,Materials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+MWA,Mueller Water Products,Industrials,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+MXL,"MaxLinear, Inc.",Information Technology,"Carlsbad, California",sp600,2026-04-20T01:14:00+00:00
+MYRG,"MYR Group, Inc.",Industrials,"Thornton, Colorado",sp600,2026-04-20T01:14:00+00:00
+NABL,"N-able, Inc.",Information Technology,"Wilmington, Delaware",sp600,2026-04-20T01:14:00+00:00
+NATL,NCR Atleos,Financials,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+NAVI,Navient,Financials,"Wilmington, Delaware",sp600,2026-04-20T01:14:00+00:00
+NBHC,National Bank Holdings Corporation,Financials,"Greenwood Village, Colorado",sp600,2026-04-20T01:14:00+00:00
+NBTB,"NBT Bancorp, Inc.",Financials,"Norwich, New York",sp600,2026-04-20T01:14:00+00:00
+NE,Noble Corporation,Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+NEO,"NeoGenomics Laboratories, Inc.",Health Care,"Fort Myers, Florida",sp600,2026-04-20T01:14:00+00:00
+NEOG,Neogen,Health Care,"Lansing, Michigan",sp600,2026-04-20T01:14:00+00:00
+NGVT,"Ingevity, Corp.",Materials,"North Charleston, South Carolina",sp600,2026-04-20T01:14:00+00:00
+NHC,"National Healthcare, Corp.",Health Care,"Murfreesboro, Tennessee",sp600,2026-04-20T01:14:00+00:00
+NMIH,"NMI Holdings, Inc.",Financials,"Emeryville, California",sp600,2026-04-20T01:14:00+00:00
+NOG,"Northern Oil and Gas, Inc.",Energy,"Minnetonka, Minnesota",sp600,2026-04-20T01:14:00+00:00
+NPK,"National Presto Industries, Inc.",Industrials,"Eau Claire, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+NPO,"EnPro Industries, Inc.",Industrials,"Charlotte, North Carolina",sp600,2026-04-20T01:14:00+00:00
+NSIT,"Insight Enterprises, Inc.",Industrials,"Tempe, Arizona",sp600,2026-04-20T01:14:00+00:00
+NSP,Insperity,Industrials,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+NSSC,Napco Security Technologies,Information Technology,"Amityville, New York",sp600,2026-04-20T01:14:00+00:00
+NTCT,"NETSCOUT Systems, Inc.",Information Technology,"Westford, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+NVRI,Enviri Corporation,Industrials,"Philadelphia, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+NWBI,"Northwest Bancshares, Inc.",Financials,"Warren, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+NWL,Newell Brands,Consumer Discretionary,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+NWN,NW Natural,Utilities,"Portland, Oregon",sp600,2026-04-20T01:14:00+00:00
+NX,Quanex Building Products Corporation,Industrials,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+NXRT,"NexPoint Residential Trust, Inc.",Real Estate,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+OFG,OFG Bancorp,Financials,"San Juan, Puerto Rico",sp600,2026-04-20T01:14:00+00:00
+OGN,Organon & Co.,Health Care,"Jersey City, New Jersey",sp600,2026-04-20T01:14:00+00:00
+OI,"O-I Glass, Inc.",Materials,"Perrysburg, Ohio",sp600,2026-04-20T01:14:00+00:00
+OII,"Oceaneering International, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+OMCL,Omnicell,Health Care,"Fort Worth, Texas",sp600,2026-04-20T01:14:00+00:00
+OSIS,"OSI Systems, Inc.",Information Technology,"Hawthorne, California",sp600,2026-04-20T01:14:00+00:00
+OSW,OneSpaWorld Holdings Limited,Consumer Discretionary,"Nassau, Bahamas",sp600,2026-04-20T01:14:00+00:00
+OTTR,Otter Tail Corporation,Utilities,"Fergus Falls, Minnesota",sp600,2026-04-20T01:14:00+00:00
+OUT,Outfront Media,Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+OXM,"Oxford Industries, Inc.",Consumer Discretionary,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+PAHC,Phibro Animal Health,Health Care,"Teaneck, New Jersey",sp600,2026-04-20T01:14:00+00:00
+PARR,"Par Pacific Holdings, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+PAYC,Paycom,Industrials,"Oklahoma City, Oklahoma",sp600,2026-04-20T01:14:00+00:00
+PAYO,Payoneer Global Inc.,Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+PATK,"Patrick Industries, Inc.",Consumer Discretionary,"Elkhart, Indiana",sp600,2026-04-20T01:14:00+00:00
+PBH,Prestige Consumer Healthcare,Health Care,"Tarrytown, New York",sp600,2026-04-20T01:14:00+00:00
+PBI,"Pitney Bowes, Inc.",Industrials,"Stamford, Connecticut",sp600,2026-04-20T01:14:00+00:00
+PCRX,"Pacira BioSciences, Inc.",Health Care,"Tampa, Florida",sp600,2026-04-20T01:14:00+00:00
+PDFS,"PDF Solutions, Inc.",Information Technology,"Santa Clara, California",sp600,2026-04-20T01:14:00+00:00
+PEB,Pebblebrook Hotel Trust,Real Estate,"Bethesda, Maryland",sp600,2026-04-20T01:14:00+00:00
+PECO,Phillips Edison & Company,Real Estate,"Cincinnati, Ohio",sp600,2026-04-20T01:14:00+00:00
+PENG,"Penguin Solutions, Inc.",Information Technology,"Milpitas, California",sp600,2026-04-20T01:14:00+00:00
+PENN,Penn Entertainment,Consumer Discretionary,"Wyomissing, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+PFBC,Preferred Bank,Financials,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+PFS,"Provident Financial Services, Inc.",Financials,"Jersey City, New Jersey",sp600,2026-04-20T01:14:00+00:00
+PGNY,Progyny,Health Care,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+PHIN,"PHINIA, Inc.",Consumer Discretionary,"Auburn Hills, Michigan",sp600,2026-04-20T01:14:00+00:00
+PI,"Impinj, Inc.",Information Technology,"Seattle, Washington",sp600,2026-04-20T01:14:00+00:00
+PIPR,Piper Sandler Companies,Financials,"Minneapolis, Minnesota",sp600,2026-04-20T01:14:00+00:00
+PJT,"PJT Partners, Inc.",Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+PLAB,"Photronics, Inc.",Information Technology,"Brookfield, Connecticut",sp600,2026-04-20T01:14:00+00:00
+PLMR,"Palomar Holdings, Inc.",Financials,"La Jolla, California",sp600,2026-04-20T01:14:00+00:00
+PLUS,"ePlus, Inc.",Information Technology,"Herndon, Virginia",sp600,2026-04-20T01:14:00+00:00
+PLXS,Plexus Corp.,Information Technology,"Neenah, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+PMT,PennyMac Mortgage Investment Trust,Real Estate,"Westlake Village, California",sp600,2026-04-20T01:14:00+00:00
+POWI,Power Integrations,Information Technology,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+POWL,"Powell Industries, Inc.",Industrials,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+PRA,ProAssurance Corporation,Financials,"Birmingham, Alabama",sp600,2026-04-20T01:14:00+00:00
+PRAA,"PRA Group, Inc.",Financials,"Norfolk, Virginia",sp600,2026-04-20T01:14:00+00:00
+PRDO,Perdoceo Education Corp.,Consumer Discretionary,"Schaumburg, Illinois",sp600,2026-04-20T01:14:00+00:00
+PRG,"PROG Holdings, Inc.",Financials,"Draper, Utah",sp600,2026-04-20T01:14:00+00:00
+PRGO,Perrigo,Health Care,"Grand Rapids, Michigan",sp600,2026-04-20T01:14:00+00:00
+PRGS,Progress Software Corporation,Information Technology,"Burlington, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+PRIM,Primoris Services Corporation,Industrials,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+PRK,Park National Corp.,Financials,"Newark, Ohio",sp600,2026-04-20T01:14:00+00:00
+PRKS,United Parks & Resorts,Consumer Discretionary,"Orlando, Florida",sp600,2026-04-20T01:14:00+00:00
+PRLB,Protolabs,Industrials,"Maple Plain, Minnesota",sp600,2026-04-20T01:14:00+00:00
+PRSU,"Pursuit Attractions & Hospitality, Inc.",Consumer Discretionary,"Scottsdale, Arizona",sp600,2026-04-20T01:14:00+00:00
+PRVA,"Privia Health Group, Inc.",Health Care,"Arlington County, Virginia",sp600,2026-04-20T01:14:00+00:00
+PSMT,PriceSmart,Consumer Staples,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+PTCT,"PTC Therapeutics, Inc.",Health Care,"Warren Township, New Jersey",sp600,2026-04-20T01:14:00+00:00
+PTEN,"Patterson-UTI Energy, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+PTGX,"Protagonist Therapeutics, Inc.",Health Care,"Newark, California",sp600,2026-04-20T01:14:00+00:00
+PZZA,Papa John's Pizza,Consumer Discretionary,"Jeffersontown, Kentucky",sp600,2026-04-20T01:14:00+00:00
+QDEL,QuidelOrtho,Health Care,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+QNST,"QuinStreet, Inc.",Communication Services,"Foster City, California",sp600,2026-04-20T01:14:00+00:00
+QRVO,Qorvo,Information Technology,"Greensboro, North Carolina",sp600,2026-04-20T01:14:00+00:00
+QTWO,"Q2 Holdings, Inc.",Information Technology,"Austin, Texas",sp600,2026-04-20T01:14:00+00:00
+RAMP,"LiveRamp Holdings, Inc.",Information Technology,"San Francisco, California",sp600,2026-04-20T01:14:00+00:00
+RAL,Ralliant Corp,Information Technology,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+RCUS,"Arcus Biosciences, Inc.",Health Care,"Hayward, California",sp600,2026-04-20T01:14:00+00:00
+RDN,"Radian Group, Inc.",Financials,"Philadelphia, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+RDNT,"RadNet, Inc.",Health Care,"Los Angeles, California",sp600,2026-04-20T01:14:00+00:00
+RES,"RPC, Inc.",Energy,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+REYN,Reynolds Consumer Products,Consumer Staples,"Lake Forest, Illinois",sp600,2026-04-20T01:14:00+00:00
+REX,REX American Resources Corporation,Energy,"Dayton, Ohio",sp600,2026-04-20T01:14:00+00:00
+REZI,"Resideo Technologies, Inc.",Industrials,"Scottsdale, Arizona",sp600,2026-04-20T01:14:00+00:00
+RHI,Robert Half,Industrials,"Menlo Park, California",sp600,2026-04-20T01:14:00+00:00
+RHP,Ryman Hospitality Properties,Real Estate,"Nashville, Tennessee",sp600,2026-04-20T01:14:00+00:00
+RITM,Rithm Capital,Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+RNG,"RingCentral, Inc.",Information Technology,"Belmont, California",sp600,2026-04-20T01:14:00+00:00
+RNST,Renasant Corp.,Financials,"Tupelo, Mississippi",sp600,2026-04-20T01:14:00+00:00
+ROCK,"Gibraltar Industries, Inc.",Industrials,"Buffalo, New York",sp600,2026-04-20T01:14:00+00:00
+ROG,Rogers Corporation,Information Technology,"Chandler, Arizona",sp600,2026-04-20T01:14:00+00:00
+RRR,"Red Rock Resorts, Inc.",Consumer Discretionary,"Las Vegas, Nevada",sp600,2026-04-20T01:14:00+00:00
+RUN,Sunrun,Industrials,"San Francisco, California",sp600,2026-04-20T01:14:00+00:00
+RUSHA,Rush Enterprises,Industrials,"New Braunfels, Texas",sp600,2026-04-20T01:14:00+00:00
+RWT,"Redwood Trust, Inc.",Real Estate,"Mill Valley, California",sp600,2026-04-20T01:14:00+00:00
+RXO,"RXO, Inc.",Industrials,"Charlotte, North Carolina",sp600,2026-04-20T01:14:00+00:00
+SAFE,"Safehold, Inc.",Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SABR,Sabre,Consumer Discretionary,"Southlake, Texas",sp600,2026-04-20T01:14:00+00:00
+SAFT,"Safety Insurance Group, Inc.",Financials,"Boston, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+SAH,"Sonic Automotive, Inc.",Consumer Discretionary,"Charlotte, North Carolina",sp600,2026-04-20T01:14:00+00:00
+SANM,Sanmina Corporation,Information Technology,"San Jose, California",sp600,2026-04-20T01:14:00+00:00
+SBCF,Seacoast Banking Corporation of Florida,Financials,"Stuart, Florida",sp600,2026-04-20T01:14:00+00:00
+SBH,"Sally Beauty Holdings, Inc.",Consumer Discretionary,"Denton, Texas",sp600,2026-04-20T01:14:00+00:00
+SBSI,"Southside Bancshares, Inc.",Financials,"Tyler, Texas",sp600,2026-04-20T01:14:00+00:00
+SCHL,Scholastic Corporation,Consumer Discretionary,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SCL,Stepan Company,Materials,"Northfield, Illinois",sp600,2026-04-20T01:14:00+00:00
+SCSC,"ScanSource, Inc.",Information Technology,"Greenville, South Carolina",sp600,2026-04-20T01:14:00+00:00
+SDGR,"Schrödinger, Inc.",Health Care,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SEDG,SolarEdge,Information Technology,"Herzliya, Israel",sp600,2026-04-20T01:14:00+00:00
+SEM,"Select Medical Holdings, Corp.",Health Care,"Mechanicsburg, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+SEZL,Sezzle,Financials,"Minneapolis, Minnesota",sp600,2026-04-20T01:14:00+00:00
+SFBS,"ServisFirst Bancshares, Inc.",Financials,"Birmingham, Alabama",sp600,2026-04-20T01:14:00+00:00
+SFNC,Simmons First National Corporation,Financials,"Little Rock, Arkansas",sp600,2026-04-20T01:14:00+00:00
+SHAK,"Shake Shack, Inc.",Consumer Discretionary,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SHEN,Shenandoah Telecommunications Co,Communication Services,"Edinburg, Virginia",sp600,2026-04-20T01:14:00+00:00
+SHO,"Sunstone Hotel Investors, Inc.",Real Estate,"Aliso Viejo, California",sp600,2026-04-20T01:14:00+00:00
+SHOO,"Steven Madden, Ltd.",Consumer Discretionary,"Long Island City, New York",sp600,2026-04-20T01:14:00+00:00
+SIG,Signet Jewelers,Consumer Discretionary,"Akron, Ohio",sp600,2026-04-20T01:14:00+00:00
+SKT,"Tanger Factory Outlet Centers, Inc.",Real Estate,"Greensboro, North Carolina",sp600,2026-04-20T01:14:00+00:00
+SKY,"Champion Homes, Inc.",Consumer Discretionary,"Troy, Michigan",sp600,2026-04-20T01:14:00+00:00
+SKYW,"SkyWest, Inc.",Industrials,"St. George, Utah",sp600,2026-04-20T01:14:00+00:00
+SLG,SL Green Realty,Real Estate,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SLVM,Sylvamo Corp.,Materials,"Memphis, Tennessee",sp600,2026-04-20T01:14:00+00:00
+SM,SM Energy Company,Energy,"Denver, Colorado",sp600,2026-04-20T01:14:00+00:00
+SMP,"Standard Motor Products, Inc.",Consumer Discretionary,"Long Island City, New York",sp600,2026-04-20T01:14:00+00:00
+SMPL,Simply Good Foods Company,Consumer Staples,"Denver, Colorado",sp600,2026-04-20T01:14:00+00:00
+SMTC,Semtech Corporation,Information Technology,"Camarillo, California",sp600,2026-04-20T01:14:00+00:00
+SNCY,Sun Country Airlines,Industrials,"Minneapolis, Minnesota",sp600,2026-04-20T01:14:00+00:00
+SNDR,Schneider National,Industrials,"Green Bay, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+SNEX,StoneX Group Inc.,Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SONO,"Sonos, Inc.",Consumer Discretionary,"Santa Barbara, California",sp600,2026-04-20T01:14:00+00:00
+SPHR,Sphere Entertainment,Communication Services,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SPNT,SiriusPoint Ltd.,Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+SPSC,"SPS Commerce, Inc.",Information Technology,"Minneapolis, Minnesota",sp600,2026-04-20T01:14:00+00:00
+SRPT,Sarepta Therapeutics,Health Care,"Cambridge, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+SSTK,"Shutterstock, Inc.",Communication Services,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+STAA,STAAR Surgical Company,Health Care,"Monrovia, California",sp600,2026-04-20T01:14:00+00:00
+STBA,"S&T Bancorp, Inc.",Financials,"Indiana, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+STC,Stewart Information Services Corporation,Financials,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+STEL,"Stellar Bancorp, Inc.",Financials,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+STEP,StepStone Group,Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+STRA,"Strategic Education, Inc.",Consumer Discretionary,"Herndon, Virginia",sp600,2026-04-20T01:14:00+00:00
+SUPN,"Supernus Pharmaceuticals, Inc.",Health Care,"Rockville, Maryland",sp600,2026-04-20T01:14:00+00:00
+SXI,Standex International Corporation,Industrials,"Salem, New Hampshire",sp600,2026-04-20T01:14:00+00:00
+SXT,Sensient Technologies,Materials,"Milwaukee, Wisconsin",sp600,2026-04-20T01:14:00+00:00
+TALO,"Talos Energy, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+TBBK,"The Bancorp, Inc.",Financials,"Wilmington, Delaware",sp600,2026-04-20T01:14:00+00:00
+TDC,Teradata,Information Technology,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+TDS,"Telephone and Data Systems, Inc.",Communication Services,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+TDW,"Tidewater, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+TFIN,"Triumph Bancorp, Inc.",Financials,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+TFX,Teleflex,Health Care,"Wayne, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+TGTX,"TG Therapeutics, Inc.",Health Care,"Morrisville, North Carolina",sp600,2026-04-20T01:14:00+00:00
+THRM,Gentherm Incorporated,Consumer Discretionary,"Farmington Hills, Michigan",sp600,2026-04-20T01:14:00+00:00
+TILE,"Interface, Inc.",Industrials,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+TMDX,"TransMedics Group, Inc.",Health Care,"Andover, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+TMP,Tompkins Financial Corporation,Financials,"Ithaca, New York",sp600,2026-04-20T01:14:00+00:00
+TNC,Tennant Company,Industrials,"Eden Prairie, Minnesota",sp600,2026-04-20T01:14:00+00:00
+TNDM,Tandem Diabetes Care,Health Care,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+TPH,"Tri Pointe Homes, Inc.",Consumer Discretionary,"Incline Village, Nevada",sp600,2026-04-20T01:14:00+00:00
+TR,"Tootsie Roll Industries, Inc.",Consumer Staples,"Chicago, Illinois",sp600,2026-04-20T01:14:00+00:00
+TRIP,TripAdvisor,Communication Services,"Needham, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+TRMK,Trustmark Corp.,Financials,"Jackson, Mississippi",sp600,2026-04-20T01:14:00+00:00
+TRN,"Trinity Industries, Inc.",Industrials,"Dallas, Texas",sp600,2026-04-20T01:14:00+00:00
+TRNO,Terreno Realty Corporation,Real Estate,"San Francisco, California",sp600,2026-04-20T01:14:00+00:00
+TRST,TrustCo Bank Corp NY,Financials,"Glenville, New York",sp600,2026-04-20T01:14:00+00:00
+TRUP,Trupanion,Financials,"Seattle, Washington",sp600,2026-04-20T01:14:00+00:00
+TWO,Two Harbors Investment Corp.,Financials,"St. Louis Park, Minnesota",sp600,2026-04-20T01:14:00+00:00
+UA,Under Armour (Class C),Consumer Discretionary,"Baltimore, Maryland",sp600,2026-04-20T01:14:00+00:00
+UAA,Under Armour (Class A),Consumer Discretionary,"Baltimore, Maryland",sp600,2026-04-20T01:14:00+00:00
+UCB,"United Community Banks, Inc.",Financials,"Greenville, South Carolina",sp600,2026-04-20T01:14:00+00:00
+UCTT,"Ultra Clean Holdings, Inc.",Information Technology,"Hayward, California",sp600,2026-04-20T01:14:00+00:00
+UE,Urban Edge Properties,Real Estate,"Paramus, New Jersey",sp600,2026-04-20T01:14:00+00:00
+UFCS,"United Fire Group, Inc.",Financials,"Cedar Rapids, Iowa",sp600,2026-04-20T01:14:00+00:00
+UFPT,"UFP Technologies, Inc.",Health Care,"Newburyport, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+UHT,Universal Health Realty Income Trust,Real Estate,"King of Prussia, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+UNF,UniFirst Corporation,Industrials,"Wilmington, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+UNFI,United Natural Foods Inc,Consumer Staples,"Providence, Rhode Island",sp600,2026-04-20T01:14:00+00:00
+UNIT,Uniti Group,Communication Services,"Little Rock, Arkansas",sp600,2026-04-20T01:14:00+00:00
+UPBD,"Upbound Group, Inc.",Consumer Discretionary,"Plano, Texas",sp600,2026-04-20T01:14:00+00:00
+UPWK,"Upwork, Inc.",Industrials,"Palo Alto, California",sp600,2026-04-20T01:14:00+00:00
+URBN,"Urban Outfitters, Inc.",Consumer Discretionary,"Philadelphia, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+USPH,"U.S. Physical Therapy, Inc.",Health Care,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+UTL,Unitil Corporation,Utilities,"Hampton, New Hampshire",sp600,2026-04-20T01:14:00+00:00
+UVV,Universal Corporation,Consumer Staples,"Richmond, Virginia",sp600,2026-04-20T01:14:00+00:00
+VAC,Marriott Vacations Worldwide,Consumer Discretionary,"Orlando, Florida",sp600,2026-04-20T01:14:00+00:00
+VCEL,Vericel,Health Care,"Cambridge, Massachusetts",sp600,2026-04-20T01:14:00+00:00
+VCTR,"Victory Capital Holdings, Inc.",Financials,"San Antonio, Texas",sp600,2026-04-20T01:14:00+00:00
+VCYT,"Veracyte, Inc.",Health Care,"San Francisco, California",sp600,2026-04-20T01:14:00+00:00
+VECO,Veeco Instruments Inc.,Information Technology,"Plainview, New York",sp600,2026-04-20T01:14:00+00:00
+VGNT,Versigent PLC,Consumer Discretionary,"Schaffhausen, Switzerland",sp600,2026-04-20T01:14:00+00:00
+VIAV,VIAVI Solutions,Information Technology,"Chandler, Arizona",sp600,2026-04-20T01:14:00+00:00
+VIR,"Vir Biotechnology, Inc.",Health Care,"San Francisco, California",sp600,2026-04-20T01:14:00+00:00
+VIRT,"Virtu Financial, Inc.",Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+VITL,"Vital Farms, Inc.",Consumer Staples,"Austin, Texas",sp600,2026-04-20T01:14:00+00:00
+VRE,"Veris Residential, Inc.",Real Estate,"Jersey City, New Jersey",sp600,2026-04-20T01:14:00+00:00
+VRRM,Verra Mobility Corporation,Industrials,"Mesa, Arizona",sp600,2026-04-20T01:14:00+00:00
+VRTS,"Virtus Investment Partners, Inc.",Financials,"Hartford, Connecticut",sp600,2026-04-20T01:14:00+00:00
+VSAT,"Viasat, Inc.",Information Technology,"Carlsbad, California",sp600,2026-04-20T01:14:00+00:00
+VSCO,Victoria's Secret,Consumer Discretionary,"Reynoldsburg, Ohio",sp600,2026-04-20T01:14:00+00:00
+VSEC,VSE Corporation,Industrials,"Miramar, Florida",sp600,2026-04-20T01:14:00+00:00
+VSH,Vishay Intertechnology,Information Technology,"Malvern, Pennsylvania",sp600,2026-04-20T01:14:00+00:00
+VSNT,"Versant Media Group, Inc.",Communication Services,"Englewood Cliffs, New Jersey",sp600,2026-04-20T01:14:00+00:00
+VSTS,Vestis,Industrials,"Roswell, Georgia",sp600,2026-04-20T01:14:00+00:00
+VTOL,Bristow Group Inc.,Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+VYX,NCR Voyix,Information Technology,"Atlanta, Georgia",sp600,2026-04-20T01:14:00+00:00
+WABC,Westamerica Bank,Financials,"San Rafael, California",sp600,2026-04-20T01:14:00+00:00
+WAFD,"WaFd, Inc.",Financials,"Seattle, Washington",sp600,2026-04-20T01:14:00+00:00
+WAY,Waystar Holding Corp,Health Care,"Lehi, Utah",sp600,2026-04-20T01:14:00+00:00
+WD,"Walker & Dunlop, Inc.",Financials,"Bethesda, Maryland",sp600,2026-04-20T01:14:00+00:00
+WDFC,WD-40 Company,Consumer Staples,"San Diego, California",sp600,2026-04-20T01:14:00+00:00
+WEN,The Wendy's Company,Consumer Discretionary,"Dublin, Ohio",sp600,2026-04-20T01:14:00+00:00
+WERN,Werner Enterprises,Industrials,"Omaha, Nebraska",sp600,2026-04-20T01:14:00+00:00
+WGO,"Winnebago Industries, Inc.",Consumer Discretionary,"Eden Prairie, Minnesota",sp600,2026-04-20T01:14:00+00:00
+WHD,"Cactus, Inc.",Energy,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+WINA,Winmark,Consumer Discretionary,"Minneapolis, Minnesota",sp600,2026-04-20T01:14:00+00:00
+WKC,World Kinect Corporation,Energy,"Doral, Florida",sp600,2026-04-20T01:14:00+00:00
+WLY,John Wiley & Sons,Communication Services,"Hoboken, New Jersey",sp600,2026-04-20T01:14:00+00:00
+WOR,Worthington Enterprises,Industrials,"Columbus, Ohio",sp600,2026-04-20T01:14:00+00:00
+WRLD,World Acceptance Corporation,Financials,"Greenville, South Carolina",sp600,2026-04-20T01:14:00+00:00
+WS,Worthington Steel,Materials,"Columbus, Ohio",sp600,2026-04-20T01:14:00+00:00
+WSC,WillScot Holdings Corp.,Industrials,"Phoenix, Arizona",sp600,2026-04-20T01:14:00+00:00
+WSFS,WSFS Financial Corporation,Financials,"Wilmington, Delaware",sp600,2026-04-20T01:14:00+00:00
+WSR,Whitestone REIT,Real Estate,"Houston, Texas",sp600,2026-04-20T01:14:00+00:00
+WT,"WisdomTree Investments, Inc.",Financials,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+WU,Western Union,Financials,"Denver, Colorado",sp600,2026-04-20T01:14:00+00:00
+WWW,"Wolverine World Wide, Inc.",Consumer Discretionary,"Rockford, Michigan",sp600,2026-04-20T01:14:00+00:00
+XHR,"Xenia Hotels & Resorts, Inc.",Real Estate,"Orlando, Florida",sp600,2026-04-20T01:14:00+00:00
+XNCR,Xencor Inc,Health Care,"Pasadena, California",sp600,2026-04-20T01:14:00+00:00
+XPEL,"XPEL, Inc.",Consumer Discretionary,"San Antonio, Texas",sp600,2026-04-20T01:14:00+00:00
+YELP,"Yelp, Inc.",Communication Services,"San Francisco, California",sp600,2026-04-20T01:14:00+00:00
+YOU,"Clear Secure, Inc.",Information Technology,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+ZD,Ziff Davis,Communication Services,"New York City, New York",sp600,2026-04-20T01:14:00+00:00
+ZWS,Zurn Elkay Water Solutions Corp.,Industrials,"Milwaukee, Wisconsin",sp600,2026-04-20T01:14:00+00:00

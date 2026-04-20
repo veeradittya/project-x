@@ -1,0 +1,28 @@
+# ---- secrets ----
+.env
+
+# ---- python ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- editor ----
+.vscode/
+.idea/
+*.swp
+
+# ---- archived manifests from earlier runs ----
+*.archived
+
+# ---- runtime logs (recreated by ingest_sp1500.py) ----
+logs/
+
+# ---- Claude Code local settings (keep launch.json, drop personal settings) ----
+.claude/settings.local.json

@@ -1,0 +1,1 @@
+{"path": "ASSET/VIX/bars_1d.parquet", "sha256": "1c7d8cdba9e31f2f3fb2224d600ee6df1050963ad864e50ee91ec45ca78b02a9", "rows": 2839, "min_ts_date": "2015-01-02", "max_ts_date": "2026-04-17", "symbol": "VIX", "kind": "bars_1d", "source": "yfinance", "yfinance_ticker": "^VIX", "written_at": "2026-04-19T21:16:22.414401+00:00"}

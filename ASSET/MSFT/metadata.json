@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT",
+  "shortName": "Microsoft Corporation",
+  "longName": "Microsoft Corporation",
+  "quoteType": "EQUITY",
+  "exchange": "NMS",
+  "currency": "USD",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "country": "United States",
+  "website": "https://www.microsoft.com",
+  "marketCap": 3142335070208,
+  "sharesOutstanding": 7425629076,
+  "trailingPE": 26.457449,
+  "forwardPE": 22.363321,
+  "dividendYield": 0.86,
+  "beta": 1.107,
+  "52WeekHigh": 555.45,
+  "52WeekLow": 355.67,
+  "averageVolume": 37843451,
+  "longBusinessSummary": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and compliance, and copilot; Microsoft 365 commercial products, such as Windows commercial on-premises and office licensed services; Microsoft 365 consumer products and cloud services, including Microsoft 365 consumer subscriptions, office licensed on-premises, and other consumer services; LinkedIn; dynamics products and cloud services, such as dynamics 365, cloud-based applications, and on-premises ERP and CRM applications. Its Intelligent Cloud segment provides Server products and cloud services comprising Azure and other cloud services, GitHub, Nuance Healthcare, virtual desktop offerings, and other cloud services; server products, including SQL and windows server, visual studio and system center related client access licenses, and other on-premises offerings; enterprise and partner services, such as enterprise support and nuance professional services, industry solutions, Microsoft partner network, and learning experience. The Personal Computing segment provides windows and devices, such as Windows OEM licensing and devices and surface and PC accessories; gaming services and solutions, such as Xbox hardware, content, and services, first- and third-party content Xbox game pass, subscriptions, and cloud gaming, advertising, and other cloud services; search and news advertising services that includes Bing and Copilot, Microsoft News and Edge, and third-party affiliates. It sells its products through OEMs, distributors, and resellers; and online and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+  "fetched_at_utc": "2026-04-19T19:39:02.054099+00:00"
+}

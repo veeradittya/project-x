@@ -1,0 +1,1 @@
+{"path": "ASSET/UUP/bars_1d.parquet", "sha256": "d313fabc76128ea80aa48824b9f1c754211686a9233227d7be905bd7330bfc8f", "rows": 2839, "min_ts_date": "2015-01-02", "max_ts_date": "2026-04-17", "symbol": "UUP", "kind": "bars_1d", "source": "yfinance", "yfinance_ticker": "UUP", "written_at": "2026-04-19T21:16:22.097155+00:00"}

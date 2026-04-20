@@ -1,0 +1,1 @@
+{"path": "ASSET/SPY/bars_1d.parquet", "sha256": "8ec843d501b50607f117178d0a16b3c0c53ebf0166a911dcea9a3e692b0afe43", "rows": 2839, "min_ts_date": "2015-01-02", "max_ts_date": "2026-04-17", "symbol": "SPY", "kind": "bars_1d", "source": "yfinance", "yfinance_ticker": "SPY", "written_at": "2026-04-19T21:16:20.404010+00:00"}

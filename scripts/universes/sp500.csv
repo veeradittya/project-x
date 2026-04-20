@@ -1,0 +1,504 @@
+symbol,name,sector,hq,tier,fetched_at
+MMM,3M,Industrials,"Saint Paul, Minnesota",sp500,2026-04-20T01:14:00+00:00
+AOS,A. O. Smith,Industrials,"Milwaukee, Wisconsin",sp500,2026-04-20T01:14:00+00:00
+ABT,Abbott Laboratories,Health Care,"North Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+ABBV,AbbVie,Health Care,"North Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+ACN,Accenture,Information Technology,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+ADBE,Adobe Inc.,Information Technology,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+AMD,Advanced Micro Devices,Information Technology,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+AES,AES Corporation,Utilities,"Arlington, Virginia",sp500,2026-04-20T01:14:00+00:00
+AFL,Aflac,Financials,"Columbus, Georgia",sp500,2026-04-20T01:14:00+00:00
+A,Agilent Technologies,Health Care,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+APD,Air Products,Materials,"Upper Macungie Township, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+ABNB,Airbnb,Consumer Discretionary,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+AKAM,Akamai Technologies,Information Technology,"Cambridge, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+ALB,Albemarle Corporation,Materials,"Charlotte, North Carolina",sp500,2026-04-20T01:14:00+00:00
+ARE,Alexandria Real Estate Equities,Real Estate,"Pasadena, California",sp500,2026-04-20T01:14:00+00:00
+ALGN,Align Technology,Health Care,"Tempe, Arizona",sp500,2026-04-20T01:14:00+00:00
+ALLE,Allegion,Industrials,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+LNT,Alliant Energy,Utilities,"Madison, Wisconsin",sp500,2026-04-20T01:14:00+00:00
+ALL,Allstate,Financials,"Northbrook, Illinois",sp500,2026-04-20T01:14:00+00:00
+GOOGL,Alphabet Inc. (Class A),Communication Services,"Mountain View, California",sp500,2026-04-20T01:14:00+00:00
+GOOG,Alphabet Inc. (Class C),Communication Services,"Mountain View, California",sp500,2026-04-20T01:14:00+00:00
+MO,Altria,Consumer Staples,"Richmond, Virginia",sp500,2026-04-20T01:14:00+00:00
+AMZN,Amazon,Consumer Discretionary,"Seattle, Washington",sp500,2026-04-20T01:14:00+00:00
+AMCR,Amcor,Materials,"Warmley, Bristol, United Kingdom",sp500,2026-04-20T01:14:00+00:00
+AEE,Ameren,Utilities,"St. Louis, Missouri",sp500,2026-04-20T01:14:00+00:00
+AEP,American Electric Power,Utilities,"Columbus, Ohio",sp500,2026-04-20T01:14:00+00:00
+AXP,American Express,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+AIG,American International Group,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+AMT,American Tower,Real Estate,"Boston, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+AWK,American Water Works,Utilities,"Camden, New Jersey",sp500,2026-04-20T01:14:00+00:00
+AMP,Ameriprise Financial,Financials,"Minneapolis, Minnesota",sp500,2026-04-20T01:14:00+00:00
+AME,Ametek,Industrials,"Berwyn, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+AMGN,Amgen,Health Care,"Thousand Oaks, California",sp500,2026-04-20T01:14:00+00:00
+APH,Amphenol,Information Technology,"Wallingford, Connecticut",sp500,2026-04-20T01:14:00+00:00
+ADI,Analog Devices,Information Technology,"Wilmington, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+AON,Aon plc,Financials,"London, United Kingdom",sp500,2026-04-20T01:14:00+00:00
+APA,APA Corporation,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+APO,Apollo Global Management,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+AAPL,Apple Inc.,Information Technology,"Cupertino, California",sp500,2026-04-20T01:14:00+00:00
+AMAT,Applied Materials,Information Technology,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+APP,AppLovin,Information Technology,"Palo Alto, California",sp500,2026-04-20T01:14:00+00:00
+APTV,Aptiv,Consumer Discretionary,"Schaffhausen, Switzerland",sp500,2026-04-20T01:14:00+00:00
+ACGL,Arch Capital Group,Financials,"Hamilton, Bermuda",sp500,2026-04-20T01:14:00+00:00
+ADM,Archer Daniels Midland,Consumer Staples,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+ARES,Ares Management,Financials,"Los Angeles, California",sp500,2026-04-20T01:14:00+00:00
+ANET,Arista Networks,Information Technology,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+AJG,Arthur J. Gallagher & Co.,Financials,"Rolling Meadows, Illinois",sp500,2026-04-20T01:14:00+00:00
+AIZ,Assurant,Financials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+T,AT&T,Communication Services,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+ATO,Atmos Energy,Utilities,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+ADSK,Autodesk,Information Technology,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+ADP,Automatic Data Processing,Industrials,"Roseland, New Jersey",sp500,2026-04-20T01:14:00+00:00
+AZO,AutoZone,Consumer Discretionary,"Memphis, Tennessee",sp500,2026-04-20T01:14:00+00:00
+AVB,AvalonBay Communities,Real Estate,"Arlington, Virginia",sp500,2026-04-20T01:14:00+00:00
+AVY,Avery Dennison,Materials,"Mentor, Ohio",sp500,2026-04-20T01:14:00+00:00
+AXON,Axon Enterprise,Industrials,"Scottsdale, Arizona",sp500,2026-04-20T01:14:00+00:00
+BKR,Baker Hughes,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+BALL,Ball Corporation,Materials,"Broomfield, Colorado",sp500,2026-04-20T01:14:00+00:00
+BAC,Bank of America,Financials,"Charlotte, North Carolina",sp500,2026-04-20T01:14:00+00:00
+BAX,Baxter International,Health Care,"Deerfield, Illinois",sp500,2026-04-20T01:14:00+00:00
+BDX,Becton Dickinson,Health Care,"Franklin Lakes, New Jersey",sp500,2026-04-20T01:14:00+00:00
+BRK.B,Berkshire Hathaway,Financials,"Omaha, Nebraska",sp500,2026-04-20T01:14:00+00:00
+BBY,Best Buy,Consumer Discretionary,"Richfield, Minnesota",sp500,2026-04-20T01:14:00+00:00
+TECH,Bio-Techne,Health Care,"Minneapolis, Minnesota",sp500,2026-04-20T01:14:00+00:00
+BIIB,Biogen,Health Care,"Cambridge, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+BLK,BlackRock,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+BX,Blackstone Inc.,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+XYZ,"Block, Inc.",Financials,none,sp500,2026-04-20T01:14:00+00:00
+BK,BNY Mellon,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+BA,Boeing,Industrials,"Arlington, Virginia",sp500,2026-04-20T01:14:00+00:00
+BKNG,Booking Holdings,Consumer Discretionary,"Norwalk, Connecticut",sp500,2026-04-20T01:14:00+00:00
+BSX,Boston Scientific,Health Care,"Marlborough, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+BMY,Bristol Myers Squibb,Health Care,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+AVGO,Broadcom,Information Technology,"Palo Alto, California",sp500,2026-04-20T01:14:00+00:00
+BR,Broadridge Financial Solutions,Industrials,"Lake Success, New York",sp500,2026-04-20T01:14:00+00:00
+BRO,Brown & Brown,Financials,"Daytona Beach, Florida",sp500,2026-04-20T01:14:00+00:00
+BF.B,Brown–Forman,Consumer Staples,"Louisville, Kentucky",sp500,2026-04-20T01:14:00+00:00
+BLDR,Builders FirstSource,Industrials,"Irving, Texas",sp500,2026-04-20T01:14:00+00:00
+BG,Bunge Global,Consumer Staples,"Chesterfield, Missouri",sp500,2026-04-20T01:14:00+00:00
+BXP,"BXP, Inc.",Real Estate,"Boston, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+CHRW,C.H. Robinson,Industrials,"Eden Prairie, Minnesota",sp500,2026-04-20T01:14:00+00:00
+CDNS,Cadence Design Systems,Information Technology,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+CPT,Camden Property Trust,Real Estate,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+CPB,Campbell's Company (The),Consumer Staples,"Camden, New Jersey",sp500,2026-04-20T01:14:00+00:00
+COF,Capital One,Financials,"Tysons Corner, Virginia",sp500,2026-04-20T01:14:00+00:00
+CAH,Cardinal Health,Health Care,"Dublin, Ohio",sp500,2026-04-20T01:14:00+00:00
+CCL,Carnival,Consumer Discretionary,"Miami, Florida",sp500,2026-04-20T01:14:00+00:00
+CARR,Carrier Global,Industrials,"Palm Beach Gardens, Florida",sp500,2026-04-20T01:14:00+00:00
+CVNA,Carvana,Consumer Discretionary,"Tempe, Arizona",sp500,2026-04-20T01:14:00+00:00
+CASY,Casey's,Consumer Staples,"Ankeny, Iowa",sp500,2026-04-20T01:14:00+00:00
+CAT,Caterpillar Inc.,Industrials,"Irving, Texas",sp500,2026-04-20T01:14:00+00:00
+CBOE,Cboe Global Markets,Financials,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+CBRE,CBRE Group,Real Estate,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+CDW,CDW Corporation,Information Technology,"Vernon Hills, Illinois",sp500,2026-04-20T01:14:00+00:00
+COR,Cencora,Health Care,"Conshohocken, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+CNC,Centene Corporation,Health Care,"St. Louis, Missouri",sp500,2026-04-20T01:14:00+00:00
+CNP,CenterPoint Energy,Utilities,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+CF,CF Industries,Materials,"Deerfield, Illinois",sp500,2026-04-20T01:14:00+00:00
+CRL,Charles River Laboratories,Health Care,"Wilmington, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+SCHW,Charles Schwab Corporation,Financials,"Westlake, Texas",sp500,2026-04-20T01:14:00+00:00
+CHTR,Charter Communications,Communication Services,"Stamford, Connecticut",sp500,2026-04-20T01:14:00+00:00
+CVX,Chevron Corporation,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+CMG,Chipotle Mexican Grill,Consumer Discretionary,"Newport Beach, California",sp500,2026-04-20T01:14:00+00:00
+CB,Chubb Limited,Financials,"Zurich, Switzerland",sp500,2026-04-20T01:14:00+00:00
+CHD,Church & Dwight,Consumer Staples,"Ewing, New Jersey",sp500,2026-04-20T01:14:00+00:00
+CIEN,Ciena,Information Technology,"Hanover, Maryland",sp500,2026-04-20T01:14:00+00:00
+CI,Cigna,Health Care,"Bloomfield, Connecticut",sp500,2026-04-20T01:14:00+00:00
+CINF,Cincinnati Financial,Financials,"Fairfield, Ohio",sp500,2026-04-20T01:14:00+00:00
+CTAS,Cintas,Industrials,"Mason, Ohio",sp500,2026-04-20T01:14:00+00:00
+CSCO,Cisco,Information Technology,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+C,Citigroup,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+CFG,Citizens Financial Group,Financials,"Providence, Rhode Island",sp500,2026-04-20T01:14:00+00:00
+CLX,Clorox,Consumer Staples,"Oakland, California",sp500,2026-04-20T01:14:00+00:00
+CME,CME Group,Financials,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+CMS,CMS Energy,Utilities,"Jackson, Michigan",sp500,2026-04-20T01:14:00+00:00
+KO,Coca-Cola Company (The),Consumer Staples,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+CTSH,Cognizant,Information Technology,"Teaneck, New Jersey",sp500,2026-04-20T01:14:00+00:00
+COHR,Coherent Corp.,Information Technology,"Saxonburg, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+COIN,Coinbase,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+CL,Colgate-Palmolive,Consumer Staples,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+CMCSA,Comcast,Communication Services,"Philadelphia, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+FIX,Comfort Systems USA,Industrials,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+CAG,Conagra Brands,Consumer Staples,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+COP,ConocoPhillips,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+ED,Consolidated Edison,Utilities,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+STZ,Constellation Brands,Consumer Staples,"Rochester, New York",sp500,2026-04-20T01:14:00+00:00
+CEG,Constellation Energy,Utilities,"Baltimore, Maryland",sp500,2026-04-20T01:14:00+00:00
+COO,Cooper Companies (The),Health Care,"San Ramon, California",sp500,2026-04-20T01:14:00+00:00
+CPRT,Copart,Industrials,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+GLW,Corning Inc.,Information Technology,"Corning, New York",sp500,2026-04-20T01:14:00+00:00
+CPAY,Corpay,Financials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+CTVA,Corteva,Materials,"Indianapolis, Indiana",sp500,2026-04-20T01:14:00+00:00
+CSGP,CoStar Group,Real Estate,"Washington, D.C.",sp500,2026-04-20T01:14:00+00:00
+COST,Costco,Consumer Staples,"Issaquah, Washington",sp500,2026-04-20T01:14:00+00:00
+CTRA,Coterra,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+CRH,CRH plc,Materials,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+CRWD,CrowdStrike,Information Technology,"Austin, Texas",sp500,2026-04-20T01:14:00+00:00
+CCI,Crown Castle,Real Estate,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+CSX,CSX Corporation,Industrials,"Jacksonville, Florida",sp500,2026-04-20T01:14:00+00:00
+CMI,Cummins,Industrials,"Columbus, Indiana",sp500,2026-04-20T01:14:00+00:00
+CVS,CVS Health,Health Care,"Woonsocket, Rhode Island",sp500,2026-04-20T01:14:00+00:00
+DHR,Danaher Corporation,Health Care,"Washington, D.C.",sp500,2026-04-20T01:14:00+00:00
+DRI,Darden Restaurants,Consumer Discretionary,"Orlando, Florida",sp500,2026-04-20T01:14:00+00:00
+DDOG,Datadog,Information Technology,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+DVA,DaVita,Health Care,"Denver, Colorado",sp500,2026-04-20T01:14:00+00:00
+DECK,Deckers Brands,Consumer Discretionary,"Goleta, California",sp500,2026-04-20T01:14:00+00:00
+DE,Deere & Company,Industrials,"Moline, Illinois",sp500,2026-04-20T01:14:00+00:00
+DELL,Dell Technologies,Information Technology,"Round Rock, Texas",sp500,2026-04-20T01:14:00+00:00
+DAL,Delta Air Lines,Industrials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+DVN,Devon Energy,Energy,"Oklahoma City, Oklahoma",sp500,2026-04-20T01:14:00+00:00
+DXCM,Dexcom,Health Care,"San Diego, California",sp500,2026-04-20T01:14:00+00:00
+FANG,Diamondback Energy,Energy,"Midland, Texas",sp500,2026-04-20T01:14:00+00:00
+DLR,Digital Realty,Real Estate,"Austin, Texas",sp500,2026-04-20T01:14:00+00:00
+DG,Dollar General,Consumer Staples,"Goodlettsville, Tennessee",sp500,2026-04-20T01:14:00+00:00
+DLTR,Dollar Tree,Consumer Staples,"Chesapeake, Virginia",sp500,2026-04-20T01:14:00+00:00
+D,Dominion Energy,Utilities,"Richmond, Virginia",sp500,2026-04-20T01:14:00+00:00
+DPZ,Domino's,Consumer Discretionary,"Ann Arbor, Michigan",sp500,2026-04-20T01:14:00+00:00
+DASH,DoorDash,Consumer Discretionary,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+DOV,Dover Corporation,Industrials,"Downers Grove, Illinois",sp500,2026-04-20T01:14:00+00:00
+DOW,Dow Inc.,Materials,"Midland, Michigan",sp500,2026-04-20T01:14:00+00:00
+DHI,D. R. Horton,Consumer Discretionary,"Arlington, Texas",sp500,2026-04-20T01:14:00+00:00
+DTE,DTE Energy,Utilities,"Detroit, Michigan",sp500,2026-04-20T01:14:00+00:00
+DUK,Duke Energy,Utilities,"Charlotte, North Carolina",sp500,2026-04-20T01:14:00+00:00
+DD,DuPont,Materials,"Wilmington, Delaware",sp500,2026-04-20T01:14:00+00:00
+ETN,Eaton Corporation,Industrials,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+EBAY,eBay Inc.,Consumer Discretionary,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+SATS,EchoStar,Communication Services,"Englewood, Colorado",sp500,2026-04-20T01:14:00+00:00
+ECL,Ecolab,Materials,"Saint Paul, Minnesota",sp500,2026-04-20T01:14:00+00:00
+EIX,Edison International,Utilities,"Rosemead, California",sp500,2026-04-20T01:14:00+00:00
+EW,Edwards Lifesciences,Health Care,"Irvine, California",sp500,2026-04-20T01:14:00+00:00
+EA,Electronic Arts,Communication Services,"Redwood City, California",sp500,2026-04-20T01:14:00+00:00
+ELV,Elevance Health,Health Care,"Indianapolis, Indiana",sp500,2026-04-20T01:14:00+00:00
+EME,Emcor,Industrials,"Norwalk, Connecticut",sp500,2026-04-20T01:14:00+00:00
+EMR,Emerson Electric,Industrials,"Ferguson, Missouri",sp500,2026-04-20T01:14:00+00:00
+ETR,Entergy,Utilities,"New Orleans, Louisiana",sp500,2026-04-20T01:14:00+00:00
+EOG,EOG Resources,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+EPAM,EPAM Systems,Information Technology,"Newtown, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+EQT,EQT Corporation,Energy,"Pittsburgh, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+EFX,Equifax,Industrials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+EQIX,Equinix,Real Estate,"Redwood City, California",sp500,2026-04-20T01:14:00+00:00
+EQR,Equity Residential,Real Estate,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+ERIE,Erie Indemnity,Financials,"Erie, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+ESS,Essex Property Trust,Real Estate,"San Mateo, California",sp500,2026-04-20T01:14:00+00:00
+EL,Estée Lauder Companies (The),Consumer Staples,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+EG,Everest Group,Financials,"Hamilton, Bermuda",sp500,2026-04-20T01:14:00+00:00
+EVRG,Evergy,Utilities,"Kansas City, Missouri",sp500,2026-04-20T01:14:00+00:00
+ES,Eversource Energy,Utilities,"Hartford, Connecticut",sp500,2026-04-20T01:14:00+00:00
+EXC,Exelon,Utilities,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+EXE,Expand Energy,Energy,"Oklahoma City, Oklahoma",sp500,2026-04-20T01:14:00+00:00
+EXPE,Expedia Group,Consumer Discretionary,"Seattle, Washington",sp500,2026-04-20T01:14:00+00:00
+EXPD,Expeditors International,Industrials,"Seattle, Washington",sp500,2026-04-20T01:14:00+00:00
+EXR,Extra Space Storage,Real Estate,"Salt Lake City, Utah",sp500,2026-04-20T01:14:00+00:00
+XOM,ExxonMobil,Energy,"Irving, Texas",sp500,2026-04-20T01:14:00+00:00
+FFIV,"F5, Inc.",Information Technology,"Seattle, Washington",sp500,2026-04-20T01:14:00+00:00
+FDS,FactSet,Financials,"Norwalk, Connecticut",sp500,2026-04-20T01:14:00+00:00
+FICO,Fair Isaac,Information Technology,"Bozeman, Montana",sp500,2026-04-20T01:14:00+00:00
+FAST,Fastenal,Industrials,"Winona, Minnesota",sp500,2026-04-20T01:14:00+00:00
+FRT,Federal Realty Investment Trust,Real Estate,"Rockville, Maryland",sp500,2026-04-20T01:14:00+00:00
+FDX,FedEx,Industrials,"Memphis, Tennessee",sp500,2026-04-20T01:14:00+00:00
+FIS,Fidelity National Information Services,Financials,"Jacksonville, Florida",sp500,2026-04-20T01:14:00+00:00
+FITB,Fifth Third Bancorp,Financials,"Cincinnati, Ohio",sp500,2026-04-20T01:14:00+00:00
+FSLR,First Solar,Information Technology,"Tempe, Arizona",sp500,2026-04-20T01:14:00+00:00
+FE,FirstEnergy,Utilities,"Akron, Ohio",sp500,2026-04-20T01:14:00+00:00
+FISV,Fiserv,Financials,"Brookfield, Wisconsin",sp500,2026-04-20T01:14:00+00:00
+F,Ford Motor Company,Consumer Discretionary,"Dearborn, Michigan",sp500,2026-04-20T01:14:00+00:00
+FTNT,Fortinet,Information Technology,"Sunnyvale, California",sp500,2026-04-20T01:14:00+00:00
+FTV,Fortive,Industrials,"Everett, Washington",sp500,2026-04-20T01:14:00+00:00
+FOXA,Fox Corporation (Class A),Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+FOX,Fox Corporation (Class B),Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+BEN,Franklin Resources,Financials,"San Mateo, California",sp500,2026-04-20T01:14:00+00:00
+FCX,Freeport-McMoRan,Materials,"Phoenix, Arizona",sp500,2026-04-20T01:14:00+00:00
+GRMN,Garmin,Consumer Discretionary,"Schaffhausen, Switzerland",sp500,2026-04-20T01:14:00+00:00
+IT,Gartner,Information Technology,"Stamford, Connecticut",sp500,2026-04-20T01:14:00+00:00
+GE,GE Aerospace,Industrials,"Evendale, Ohio",sp500,2026-04-20T01:14:00+00:00
+GEHC,GE HealthCare,Health Care,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+GEV,GE Vernova,Industrials,"Cambridge, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+GEN,Gen Digital,Information Technology,"Tempe, Arizona",sp500,2026-04-20T01:14:00+00:00
+GNRC,Generac,Industrials,"Waukesha, Wisconsin",sp500,2026-04-20T01:14:00+00:00
+GD,General Dynamics,Industrials,"Reston, Virginia",sp500,2026-04-20T01:14:00+00:00
+GIS,General Mills,Consumer Staples,"Golden Valley, Minnesota",sp500,2026-04-20T01:14:00+00:00
+GM,General Motors,Consumer Discretionary,"Detroit, Michigan",sp500,2026-04-20T01:14:00+00:00
+GPC,Genuine Parts Company,Consumer Discretionary,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+GILD,Gilead Sciences,Health Care,"Foster City, California",sp500,2026-04-20T01:14:00+00:00
+GPN,Global Payments,Financials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+GL,Globe Life,Financials,"McKinney, Texas",sp500,2026-04-20T01:14:00+00:00
+GDDY,GoDaddy,Information Technology,"Tempe, Arizona",sp500,2026-04-20T01:14:00+00:00
+GS,Goldman Sachs,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+HAL,Halliburton,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+HIG,Hartford (The),Financials,"Hartford, Connecticut",sp500,2026-04-20T01:14:00+00:00
+HAS,Hasbro,Consumer Discretionary,"Pawtucket, Rhode Island",sp500,2026-04-20T01:14:00+00:00
+HCA,HCA Healthcare,Health Care,"Nashville, Tennessee",sp500,2026-04-20T01:14:00+00:00
+DOC,Healthpeak Properties,Real Estate,"Denver, Colorado",sp500,2026-04-20T01:14:00+00:00
+HSIC,Henry Schein,Health Care,"Melville, New York",sp500,2026-04-20T01:14:00+00:00
+HSY,Hershey Company (The),Consumer Staples,"Hershey, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+HPE,Hewlett Packard Enterprise,Information Technology,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+HLT,Hilton Worldwide,Consumer Discretionary,"Tysons Corner, Virginia",sp500,2026-04-20T01:14:00+00:00
+HD,Home Depot (The),Consumer Discretionary,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+HON,Honeywell,Industrials,"Charlotte, North Carolina",sp500,2026-04-20T01:14:00+00:00
+HRL,Hormel Foods,Consumer Staples,"Austin, Minnesota",sp500,2026-04-20T01:14:00+00:00
+HST,Host Hotels & Resorts,Real Estate,"Bethesda, Maryland",sp500,2026-04-20T01:14:00+00:00
+HWM,Howmet Aerospace,Industrials,"Pittsburgh, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+HPQ,HP Inc.,Information Technology,"Palo Alto, California",sp500,2026-04-20T01:14:00+00:00
+HUBB,Hubbell Incorporated,Industrials,"Shelton, Connecticut",sp500,2026-04-20T01:14:00+00:00
+HUM,Humana,Health Care,"Louisville, Kentucky",sp500,2026-04-20T01:14:00+00:00
+HBAN,Huntington Bancshares,Financials,"Columbus, Ohio; Detroit, Michigan",sp500,2026-04-20T01:14:00+00:00
+HII,Huntington Ingalls Industries,Industrials,"Newport News, Virginia",sp500,2026-04-20T01:14:00+00:00
+IBM,IBM,Information Technology,"Armonk, New York",sp500,2026-04-20T01:14:00+00:00
+IEX,IDEX Corporation,Industrials,"Northbrook, Illinois",sp500,2026-04-20T01:14:00+00:00
+IDXX,Idexx Laboratories,Health Care,"Westbrook, Maine",sp500,2026-04-20T01:14:00+00:00
+ITW,Illinois Tool Works,Industrials,"Glenview, Illinois",sp500,2026-04-20T01:14:00+00:00
+INCY,Incyte,Health Care,"Wilmington, Delaware",sp500,2026-04-20T01:14:00+00:00
+IR,Ingersoll Rand,Industrials,"Davidson, North Carolina",sp500,2026-04-20T01:14:00+00:00
+PODD,Insulet Corporation,Health Care,"Acton, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+INTC,Intel,Information Technology,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+IBKR,Interactive Brokers,Financials,"Greenwich, Connecticut",sp500,2026-04-20T01:14:00+00:00
+ICE,Intercontinental Exchange,Financials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+IFF,International Flavors & Fragrances,Materials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+IP,International Paper,Materials,"Memphis, Tennessee",sp500,2026-04-20T01:14:00+00:00
+INTU,Intuit,Information Technology,"Mountain View, California",sp500,2026-04-20T01:14:00+00:00
+ISRG,Intuitive Surgical,Health Care,"Sunnyvale, California",sp500,2026-04-20T01:14:00+00:00
+IVZ,Invesco,Financials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+INVH,Invitation Homes,Real Estate,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+IQV,IQVIA,Health Care,"Durham, North Carolina",sp500,2026-04-20T01:14:00+00:00
+IRM,Iron Mountain,Real Estate,"Portsmouth, New Hampshire",sp500,2026-04-20T01:14:00+00:00
+JBHT,J.B. Hunt,Industrials,"Lowell, Arkansas",sp500,2026-04-20T01:14:00+00:00
+JBL,Jabil,Information Technology,"St. Petersburg, Florida",sp500,2026-04-20T01:14:00+00:00
+JKHY,Jack Henry & Associates,Financials,"Monett, Missouri",sp500,2026-04-20T01:14:00+00:00
+J,Jacobs Solutions,Industrials,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+JNJ,Johnson & Johnson,Health Care,"New Brunswick, New Jersey",sp500,2026-04-20T01:14:00+00:00
+JCI,Johnson Controls,Industrials,"Cork, Ireland",sp500,2026-04-20T01:14:00+00:00
+JPM,JPMorgan Chase,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+KVUE,Kenvue,Consumer Staples,"Skillman, New Jersey",sp500,2026-04-20T01:14:00+00:00
+KDP,Keurig Dr Pepper,Consumer Staples,"Burlington, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+KEY,KeyCorp,Financials,"Cleveland, Ohio",sp500,2026-04-20T01:14:00+00:00
+KEYS,Keysight Technologies,Information Technology,"Santa Rosa, California",sp500,2026-04-20T01:14:00+00:00
+KMB,Kimberly-Clark,Consumer Staples,"Irving, Texas",sp500,2026-04-20T01:14:00+00:00
+KIM,Kimco Realty,Real Estate,"Jericho, New York",sp500,2026-04-20T01:14:00+00:00
+KMI,Kinder Morgan,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+KKR,KKR & Co.,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+KLAC,KLA Corporation,Information Technology,"Milpitas, California",sp500,2026-04-20T01:14:00+00:00
+KHC,Kraft Heinz,Consumer Staples,"Chicago, Illinois; Pittsburgh, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+KR,Kroger,Consumer Staples,"Cincinnati, Ohio",sp500,2026-04-20T01:14:00+00:00
+LHX,L3Harris,Industrials,"Melbourne, Florida",sp500,2026-04-20T01:14:00+00:00
+LH,Labcorp,Health Care,"Burlington, North Carolina",sp500,2026-04-20T01:14:00+00:00
+LRCX,Lam Research,Information Technology,"Fremont, California",sp500,2026-04-20T01:14:00+00:00
+LVS,Las Vegas Sands,Consumer Discretionary,"Las Vegas, Nevada",sp500,2026-04-20T01:14:00+00:00
+LDOS,Leidos,Industrials,"Reston, Virginia",sp500,2026-04-20T01:14:00+00:00
+LEN,Lennar,Consumer Discretionary,"Miami, Florida",sp500,2026-04-20T01:14:00+00:00
+LII,Lennox International,Industrials,"Richardson, Texas",sp500,2026-04-20T01:14:00+00:00
+LLY,Lilly (Eli),Health Care,"Indianapolis, Indiana",sp500,2026-04-20T01:14:00+00:00
+LIN,Linde plc,Materials,"Guildford, United Kingdom",sp500,2026-04-20T01:14:00+00:00
+LYV,Live Nation Entertainment,Communication Services,"Beverly Hills, California",sp500,2026-04-20T01:14:00+00:00
+LMT,Lockheed Martin,Industrials,"Bethesda, Maryland",sp500,2026-04-20T01:14:00+00:00
+L,Loews Corporation,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+LOW,Lowe's,Consumer Discretionary,"Mooresville, North Carolina",sp500,2026-04-20T01:14:00+00:00
+LULU,Lululemon Athletica,Consumer Discretionary,"Vancouver, Canada",sp500,2026-04-20T01:14:00+00:00
+LITE,Lumentum,Information Technology,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+LYB,LyondellBasell,Materials,"Rotterdam, Netherlands",sp500,2026-04-20T01:14:00+00:00
+MTB,M&T Bank,Financials,"Buffalo, New York",sp500,2026-04-20T01:14:00+00:00
+MPC,Marathon Petroleum,Energy,"Findlay, Ohio",sp500,2026-04-20T01:14:00+00:00
+MAR,Marriott International,Consumer Discretionary,"Bethesda, Maryland",sp500,2026-04-20T01:14:00+00:00
+MRSH,Marsh McLennan,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+MLM,Martin Marietta Materials,Materials,"Raleigh, North Carolina",sp500,2026-04-20T01:14:00+00:00
+MAS,Masco,Industrials,"Livonia, Michigan",sp500,2026-04-20T01:14:00+00:00
+MA,Mastercard,Financials,"Harrison, New York",sp500,2026-04-20T01:14:00+00:00
+MKC,McCormick & Company,Consumer Staples,"Hunt Valley, Maryland",sp500,2026-04-20T01:14:00+00:00
+MCD,McDonald's,Consumer Discretionary,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+MCK,McKesson Corporation,Health Care,"Irving, Texas",sp500,2026-04-20T01:14:00+00:00
+MDT,Medtronic,Health Care,"Galway, Ireland",sp500,2026-04-20T01:14:00+00:00
+MRK,Merck & Co.,Health Care,"Kenilworth, New Jersey",sp500,2026-04-20T01:14:00+00:00
+META,Meta Platforms,Communication Services,"Menlo Park, California",sp500,2026-04-20T01:14:00+00:00
+MET,MetLife,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+MTD,Mettler Toledo,Health Care,"Columbus, Ohio",sp500,2026-04-20T01:14:00+00:00
+MGM,MGM Resorts,Consumer Discretionary,"Paradise, Nevada",sp500,2026-04-20T01:14:00+00:00
+MCHP,Microchip Technology,Information Technology,"Chandler, Arizona",sp500,2026-04-20T01:14:00+00:00
+MU,Micron Technology,Information Technology,"Boise, Idaho",sp500,2026-04-20T01:14:00+00:00
+MSFT,Microsoft,Information Technology,"Redmond, Washington",sp500,2026-04-20T01:14:00+00:00
+MAA,Mid-America Apartment Communities,Real Estate,"Memphis, Tennessee",sp500,2026-04-20T01:14:00+00:00
+MRNA,Moderna,Health Care,"Cambridge, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+TAP,Molson Coors Beverage Company,Consumer Staples,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+MDLZ,Mondelez International,Consumer Staples,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+MPWR,Monolithic Power Systems,Information Technology,"Kirkland, Washington",sp500,2026-04-20T01:14:00+00:00
+MNST,Monster Beverage,Consumer Staples,"Corona, California",sp500,2026-04-20T01:14:00+00:00
+MCO,Moody's Corporation,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+MS,Morgan Stanley,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+MOS,Mosaic Company (The),Materials,"Tampa, Florida",sp500,2026-04-20T01:14:00+00:00
+MSI,Motorola Solutions,Information Technology,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+MSCI,MSCI Inc.,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+NDAQ,"Nasdaq, Inc.",Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+NTAP,NetApp,Information Technology,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+NFLX,Netflix,Communication Services,"Los Gatos, California",sp500,2026-04-20T01:14:00+00:00
+NEM,Newmont,Materials,"Denver, Colorado",sp500,2026-04-20T01:14:00+00:00
+NWSA,News Corp (Class A),Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+NWS,News Corp (Class B),Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+NEE,NextEra Energy,Utilities,"Juno Beach, Florida",sp500,2026-04-20T01:14:00+00:00
+NKE,"Nike, Inc.",Consumer Discretionary,"Washington County, Oregon",sp500,2026-04-20T01:14:00+00:00
+NI,NiSource,Utilities,"Merrillville, Indiana",sp500,2026-04-20T01:14:00+00:00
+NDSN,Nordson Corporation,Industrials,"Westlake, Ohio",sp500,2026-04-20T01:14:00+00:00
+NSC,Norfolk Southern,Industrials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+NTRS,Northern Trust,Financials,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+NOC,Northrop Grumman,Industrials,"West Falls Church, Virginia[3]",sp500,2026-04-20T01:14:00+00:00
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Miami-Dade County, Florida[4]",sp500,2026-04-20T01:14:00+00:00
+NRG,NRG Energy,Utilities,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+NUE,Nucor,Materials,"Charlotte, North Carolina",sp500,2026-04-20T01:14:00+00:00
+NVDA,Nvidia,Information Technology,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+NVR,"NVR, Inc.",Consumer Discretionary,"Reston, Virginia",sp500,2026-04-20T01:14:00+00:00
+NXPI,NXP Semiconductors,Information Technology,"Eindhoven, Netherlands",sp500,2026-04-20T01:14:00+00:00
+ORLY,O’Reilly Automotive,Consumer Discretionary,"Springfield, Missouri",sp500,2026-04-20T01:14:00+00:00
+OXY,Occidental Petroleum,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+ODFL,Old Dominion,Industrials,"Thomasville, North Carolina",sp500,2026-04-20T01:14:00+00:00
+OMC,Omnicom Group,Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+ON,ON Semiconductor,Information Technology,"Phoenix, Arizona",sp500,2026-04-20T01:14:00+00:00
+OKE,Oneok,Energy,"Tulsa, Oklahoma",sp500,2026-04-20T01:14:00+00:00
+ORCL,Oracle Corporation,Information Technology,"Austin, Texas",sp500,2026-04-20T01:14:00+00:00
+OTIS,Otis Worldwide,Industrials,"Farmington, Connecticut",sp500,2026-04-20T01:14:00+00:00
+PCAR,Paccar,Industrials,"Bellevue, Washington",sp500,2026-04-20T01:14:00+00:00
+PKG,Packaging Corporation of America,Materials,"Lake Forest, Illinois",sp500,2026-04-20T01:14:00+00:00
+PLTR,Palantir Technologies,Information Technology,"Aventura, Florida",sp500,2026-04-20T01:14:00+00:00
+PANW,Palo Alto Networks,Information Technology,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+PSKY,Paramount Skydance Corporation,Communication Services,"Los Angeles, California",sp500,2026-04-20T01:14:00+00:00
+PH,Parker Hannifin,Industrials,"Cleveland, Ohio",sp500,2026-04-20T01:14:00+00:00
+PAYX,Paychex,Industrials,"Penfield, New York",sp500,2026-04-20T01:14:00+00:00
+PYPL,PayPal,Financials,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+PNR,Pentair,Industrials,"Worsley, United Kingdom",sp500,2026-04-20T01:14:00+00:00
+PEP,PepsiCo,Consumer Staples,"Purchase, New York",sp500,2026-04-20T01:14:00+00:00
+PFE,Pfizer,Health Care,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+PCG,PG&E Corporation,Utilities,"Oakland, California",sp500,2026-04-20T01:14:00+00:00
+PM,Philip Morris International,Consumer Staples,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+PSX,Phillips 66,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+PNW,Pinnacle West Capital,Utilities,"Phoenix, Arizona",sp500,2026-04-20T01:14:00+00:00
+PNC,PNC Financial Services,Financials,"Pittsburgh, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+POOL,Pool Corporation,Consumer Discretionary,"Covington, Louisiana",sp500,2026-04-20T01:14:00+00:00
+PPG,PPG Industries,Materials,"Pittsburgh, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+PPL,PPL Corporation,Utilities,"Allentown, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+PFG,Principal Financial Group,Financials,"Des Moines, Iowa",sp500,2026-04-20T01:14:00+00:00
+PG,Procter & Gamble,Consumer Staples,"Cincinnati, Ohio",sp500,2026-04-20T01:14:00+00:00
+PGR,Progressive Corporation,Financials,"Mayfield Village, Ohio",sp500,2026-04-20T01:14:00+00:00
+PLD,Prologis,Real Estate,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+PRU,Prudential Financial,Financials,"Newark, New Jersey",sp500,2026-04-20T01:14:00+00:00
+PEG,Public Service Enterprise Group,Utilities,"Newark, New Jersey",sp500,2026-04-20T01:14:00+00:00
+PTC,PTC Inc.,Information Technology,"Boston, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+PSA,Public Storage,Real Estate,"Glendale, California",sp500,2026-04-20T01:14:00+00:00
+PHM,PulteGroup,Consumer Discretionary,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+PWR,Quanta Services,Industrials,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+QCOM,Qualcomm,Information Technology,"San Diego, California",sp500,2026-04-20T01:14:00+00:00
+DGX,Quest Diagnostics,Health Care,"Secaucus, New Jersey",sp500,2026-04-20T01:14:00+00:00
+Q,Qnity Electronics,Information Technology,"Wilmington, Delaware",sp500,2026-04-20T01:14:00+00:00
+RL,Ralph Lauren Corporation,Consumer Discretionary,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+RJF,Raymond James Financial,Financials,"St. Petersburg, Florida",sp500,2026-04-20T01:14:00+00:00
+RTX,RTX Corporation,Industrials,"Waltham, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+O,Realty Income,Real Estate,"San Diego, California",sp500,2026-04-20T01:14:00+00:00
+REG,Regency Centers,Real Estate,"Jacksonville, Florida",sp500,2026-04-20T01:14:00+00:00
+REGN,Regeneron Pharmaceuticals,Health Care,"Tarrytown, New York",sp500,2026-04-20T01:14:00+00:00
+RF,Regions Financial Corporation,Financials,"Birmingham, Alabama",sp500,2026-04-20T01:14:00+00:00
+RSG,Republic Services,Industrials,"Phoenix, Arizona",sp500,2026-04-20T01:14:00+00:00
+RMD,ResMed,Health Care,"San Diego, California",sp500,2026-04-20T01:14:00+00:00
+RVTY,Revvity,Health Care,"Waltham, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+HOOD,Robinhood Markets,Financials,"Menlo Park, California",sp500,2026-04-20T01:14:00+00:00
+ROK,Rockwell Automation,Industrials,"Milwaukee, Wisconsin",sp500,2026-04-20T01:14:00+00:00
+ROL,"Rollins, Inc.",Industrials,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+ROP,Roper Technologies,Information Technology,"Sarasota, Florida",sp500,2026-04-20T01:14:00+00:00
+ROST,Ross Stores,Consumer Discretionary,"Dublin, California",sp500,2026-04-20T01:14:00+00:00
+RCL,Royal Caribbean Group,Consumer Discretionary,"Miami, Florida",sp500,2026-04-20T01:14:00+00:00
+SPGI,S&P Global,Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+CRM,Salesforce,Information Technology,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+SNDK,Sandisk,Information Technology,"Milpitas, California",sp500,2026-04-20T01:14:00+00:00
+SBAC,SBA Communications,Real Estate,"Boca Raton, Florida",sp500,2026-04-20T01:14:00+00:00
+SLB,Schlumberger,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+STX,Seagate Technology,Information Technology,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+SRE,Sempra,Utilities,"San Diego, California",sp500,2026-04-20T01:14:00+00:00
+NOW,ServiceNow,Information Technology,"Santa Clara, California",sp500,2026-04-20T01:14:00+00:00
+SHW,Sherwin-Williams,Materials,"Cleveland, Ohio",sp500,2026-04-20T01:14:00+00:00
+SPG,Simon Property Group,Real Estate,"Indianapolis, Indiana",sp500,2026-04-20T01:14:00+00:00
+SWKS,Skyworks Solutions,Information Technology,"Irvine, California",sp500,2026-04-20T01:14:00+00:00
+SJM,J.M. Smucker Company (The),Consumer Staples,"Orrville, Ohio",sp500,2026-04-20T01:14:00+00:00
+SW,Smurfit Westrock,Materials,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+SNA,Snap-on,Industrials,"Kenosha, Wisconsin",sp500,2026-04-20T01:14:00+00:00
+SOLV,Solventum,Health Care,"Saint Paul, Minnesota",sp500,2026-04-20T01:14:00+00:00
+SO,Southern Company,Utilities,"Atlanta, Georgia",sp500,2026-04-20T01:14:00+00:00
+LUV,Southwest Airlines,Industrials,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+SWK,Stanley Black & Decker,Industrials,"New Britain, Connecticut",sp500,2026-04-20T01:14:00+00:00
+SBUX,Starbucks,Consumer Discretionary,"Seattle, Washington",sp500,2026-04-20T01:14:00+00:00
+STT,State Street Corporation,Financials,"Boston, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+STLD,Steel Dynamics,Materials,"Fort Wayne, Indiana",sp500,2026-04-20T01:14:00+00:00
+STE,Steris,Health Care,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+SYK,Stryker Corporation,Health Care,"Kalamazoo, Michigan",sp500,2026-04-20T01:14:00+00:00
+SMCI,Supermicro,Information Technology,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+SYF,Synchrony Financial,Financials,"Stamford, Connecticut",sp500,2026-04-20T01:14:00+00:00
+SNPS,Synopsys,Information Technology,"Sunnyvale, California",sp500,2026-04-20T01:14:00+00:00
+SYY,Sysco,Consumer Staples,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+TMUS,T-Mobile US,Communication Services,"Bellevue, Washington",sp500,2026-04-20T01:14:00+00:00
+TROW,T. Rowe Price,Financials,"Baltimore, Maryland",sp500,2026-04-20T01:14:00+00:00
+TTWO,Take-Two Interactive,Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+TPR,"Tapestry, Inc.",Consumer Discretionary,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+TRGP,Targa Resources,Energy,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+TGT,Target Corporation,Consumer Staples,"Minneapolis, Minnesota",sp500,2026-04-20T01:14:00+00:00
+TEL,TE Connectivity,Information Technology,"Galway, Ireland",sp500,2026-04-20T01:14:00+00:00
+TDY,Teledyne Technologies,Information Technology,"Thousand Oaks, California",sp500,2026-04-20T01:14:00+00:00
+TER,Teradyne,Information Technology,"North Reading, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+TSLA,"Tesla, Inc.",Consumer Discretionary,"Austin, Texas",sp500,2026-04-20T01:14:00+00:00
+TXN,Texas Instruments,Information Technology,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+TPL,Texas Pacific Land Corporation,Energy,"Dallas, Texas",sp500,2026-04-20T01:14:00+00:00
+TXT,Textron,Industrials,"Providence, Rhode Island",sp500,2026-04-20T01:14:00+00:00
+TMO,Thermo Fisher Scientific,Health Care,"Waltham, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+TJX,TJX Companies,Consumer Discretionary,"Framingham, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+TKO,TKO Group Holdings,Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+TTD,Trade Desk (The),Communication Services,"Ventura, California",sp500,2026-04-20T01:14:00+00:00
+TSCO,Tractor Supply,Consumer Discretionary,"Brentwood, Tennessee",sp500,2026-04-20T01:14:00+00:00
+TT,Trane Technologies,Industrials,"Dublin, Ireland",sp500,2026-04-20T01:14:00+00:00
+TDG,TransDigm Group,Industrials,"Cleveland, Ohio",sp500,2026-04-20T01:14:00+00:00
+TRV,Travelers Companies (The),Financials,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+TRMB,Trimble Inc.,Information Technology,"Westminster, Colorado",sp500,2026-04-20T01:14:00+00:00
+TFC,Truist Financial,Financials,"Charlotte, North Carolina",sp500,2026-04-20T01:14:00+00:00
+TYL,Tyler Technologies,Information Technology,"Plano, Texas",sp500,2026-04-20T01:14:00+00:00
+TSN,Tyson Foods,Consumer Staples,"Springdale, Arkansas",sp500,2026-04-20T01:14:00+00:00
+USB,U.S. Bancorp,Financials,"Minneapolis, Minnesota",sp500,2026-04-20T01:14:00+00:00
+UBER,Uber,Industrials,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+UDR,"UDR, Inc.",Real Estate,"Highlands Ranch, Colorado",sp500,2026-04-20T01:14:00+00:00
+ULTA,Ulta Beauty,Consumer Discretionary,"Bolingbrook, Illinois",sp500,2026-04-20T01:14:00+00:00
+UNP,Union Pacific Corporation,Industrials,"Omaha, Nebraska",sp500,2026-04-20T01:14:00+00:00
+UAL,United Airlines Holdings,Industrials,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+UPS,United Parcel Service,Industrials,"Sandy Springs, Georgia",sp500,2026-04-20T01:14:00+00:00
+URI,United Rentals,Industrials,"Stamford, Connecticut",sp500,2026-04-20T01:14:00+00:00
+UNH,UnitedHealth Group,Health Care,"Eden Prairie, Minnesota",sp500,2026-04-20T01:14:00+00:00
+UHS,Universal Health Services,Health Care,"King of Prussia, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+VLO,Valero Energy,Energy,"San Antonio, Texas",sp500,2026-04-20T01:14:00+00:00
+VTR,Ventas,Real Estate,"Chicago, Illinois",sp500,2026-04-20T01:14:00+00:00
+VLTO,Veralto,Industrials,"Waltham, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+VRSN,Verisign,Information Technology,"Reston, Virginia",sp500,2026-04-20T01:14:00+00:00
+VRSK,Verisk Analytics,Industrials,"Jersey City, New Jersey",sp500,2026-04-20T01:14:00+00:00
+VZ,Verizon,Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+VRTX,Vertex Pharmaceuticals,Health Care,"Boston, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+VRT,Vertiv,Industrials,"Westerville, Ohio",sp500,2026-04-20T01:14:00+00:00
+VTRS,Viatris,Health Care,"Pittsburgh, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+VICI,Vici Properties,Real Estate,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+V,Visa Inc.,Financials,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+VST,Vistra Corp.,Utilities,"Irving, Texas",sp500,2026-04-20T01:14:00+00:00
+VMC,Vulcan Materials Company,Materials,"Birmingham, Alabama",sp500,2026-04-20T01:14:00+00:00
+WRB,W. R. Berkley Corporation,Financials,"Greenwich, Connecticut",sp500,2026-04-20T01:14:00+00:00
+GWW,W. W. Grainger,Industrials,"Lake Forest, Illinois",sp500,2026-04-20T01:14:00+00:00
+WAB,Wabtec,Industrials,"Pittsburgh, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+WMT,Walmart,Consumer Staples,"Bentonville, Arkansas",sp500,2026-04-20T01:14:00+00:00
+DIS,Walt Disney Company (The),Communication Services,"Burbank, California",sp500,2026-04-20T01:14:00+00:00
+WBD,Warner Bros. Discovery,Communication Services,"New York City, New York",sp500,2026-04-20T01:14:00+00:00
+WM,Waste Management,Industrials,"Houston, Texas",sp500,2026-04-20T01:14:00+00:00
+WAT,Waters Corporation,Health Care,"Milford, Massachusetts",sp500,2026-04-20T01:14:00+00:00
+WEC,WEC Energy Group,Utilities,"Milwaukee, Wisconsin",sp500,2026-04-20T01:14:00+00:00
+WFC,Wells Fargo,Financials,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+WELL,Welltower,Real Estate,"Toledo, Ohio",sp500,2026-04-20T01:14:00+00:00
+WST,West Pharmaceutical Services,Health Care,"Exton, Pennsylvania",sp500,2026-04-20T01:14:00+00:00
+WDC,Western Digital,Information Technology,"San Jose, California",sp500,2026-04-20T01:14:00+00:00
+WY,Weyerhaeuser,Real Estate,"Seattle, Washington",sp500,2026-04-20T01:14:00+00:00
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,"San Francisco, California",sp500,2026-04-20T01:14:00+00:00
+WMB,Williams Companies,Energy,"Tulsa, Oklahoma",sp500,2026-04-20T01:14:00+00:00
+WTW,Willis Towers Watson,Financials,"London, United Kingdom",sp500,2026-04-20T01:14:00+00:00
+WDAY,"Workday, Inc.",Information Technology,"Pleasanton, California",sp500,2026-04-20T01:14:00+00:00
+WYNN,Wynn Resorts,Consumer Discretionary,"Paradise, Nevada",sp500,2026-04-20T01:14:00+00:00
+XEL,Xcel Energy,Utilities,"Minneapolis, Minnesota",sp500,2026-04-20T01:14:00+00:00
+XYL,Xylem Inc.,Industrials,"White Plains, New York",sp500,2026-04-20T01:14:00+00:00
+YUM,Yum! Brands,Consumer Discretionary,"Louisville, Kentucky",sp500,2026-04-20T01:14:00+00:00
+ZBRA,Zebra Technologies,Information Technology,"Lincolnshire, Illinois",sp500,2026-04-20T01:14:00+00:00
+ZBH,Zimmer Biomet,Health Care,"Warsaw, Indiana",sp500,2026-04-20T01:14:00+00:00
+ZTS,Zoetis,Health Care,"Parsippany, New Jersey",sp500,2026-04-20T01:14:00+00:00
