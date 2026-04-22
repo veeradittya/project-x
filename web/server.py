@@ -6,6 +6,7 @@ Start with: .venv/bin/python -m uvicorn web.server:app --host 127.0.0.1 --port 8
 """
 from __future__ import annotations
 
+import concurrent.futures as cf
 import hashlib
 import json
 import math
@@ -58,31 +59,42 @@ def db() -> duckdb.DuckDBPyConnection:
     return _ensure_base().cursor()
 
 
-# ---------- /api/assets response cache --------------------------------------
-# During active ingest the dashboard polls this endpoint frequently and each
-# call is 3 DuckDB scans per symbol. Cache the response for 30s, keyed by the
-# sorted tuple of symbols — so the cache invalidates the moment a new symbol
-# appears on disk.
-_assets_cache: dict = {"key": None, "rows": None, "expires_at": 0.0}
-_assets_cache_lock = threading.Lock()
-_ASSETS_CACHE_TTL = 30.0  # seconds
+# ---------- /api/assets per-symbol cache ------------------------------------
+# A symbol's summary row only changes when its manifest.jsonl grows (new month
+# written). We key each cached row on the manifest's (mtime, size); so long as
+# those match, the row stays valid indefinitely. This makes a fresh dashboard
+# load during active ingest O(new_symbols) instead of O(total_symbols).
+_symbol_cache: dict[str, dict] = {}     # symbol -> {manifest_key, row}
+_symbol_cache_lock = threading.Lock()
 
 
-def _assets_cache_get(syms: list[str]):
-    import time
-    key = tuple(syms)
-    with _assets_cache_lock:
-        if _assets_cache["key"] == key and _assets_cache["expires_at"] > time.time():
-            return _assets_cache["rows"]
+def _manifest_key(symbol: str) -> tuple | None:
+    """Return (mtime_ns, size) for the symbol's manifest.jsonl, or None."""
+    man = ASSET_ROOT / symbol / "manifest.jsonl"
+    try:
+        st = man.stat()
+    except FileNotFoundError:
+        return None
+    return (st.st_mtime_ns, st.st_size)
+
+
+def _symbol_row_cached(symbol: str) -> dict | None:
+    key = _manifest_key(symbol)
+    if key is None:
+        return None
+    with _symbol_cache_lock:
+        entry = _symbol_cache.get(symbol)
+    if entry and entry["manifest_key"] == key:
+        return entry["row"]
     return None
 
 
-def _assets_cache_set(syms: list[str], rows: list):
-    import time
-    with _assets_cache_lock:
-        _assets_cache["key"] = tuple(syms)
-        _assets_cache["rows"] = rows
-        _assets_cache["expires_at"] = time.time() + _ASSETS_CACHE_TTL
+def _symbol_row_store(symbol: str, row: dict) -> None:
+    key = _manifest_key(symbol)
+    if key is None:
+        return
+    with _symbol_cache_lock:
+        _symbol_cache[symbol] = {"manifest_key": key, "row": row}
 
 
 # ---------- FastAPI app ------------------------------------------------------
@@ -123,58 +135,36 @@ def health():
     return {"ok": True, "now_utc": datetime.now(timezone.utc).isoformat()}
 
 
-@app.get("/api/assets")
-def list_assets():
-    """Summary row per asset: bars, date range, last price, last change%.
+def _compute_asset_row(symbol: str) -> dict | None:
+    """Expensive path: actually run DuckDB queries to build a row for one symbol.
 
-    Queries each symbol against its own parquet glob rather than the aggregate
-    `bars` view. Before this change, every query scanned every parquet under
-    ASSET/ — which degraded from ~0.1s to >30s as the warehouse grew from 1
-    to hundreds of symbols. Per-symbol globs keep each query bounded.
-
-    Results are cached for 30s so repeated dashboard polls (sidebar refresh,
-    overview panel) don't re-scan even the per-symbol parquets.
+    Splits into three queries against the symbol's own parquet glob. Called
+    only on cache miss (first query for a symbol, or after a new month was
+    written). Safe to call from worker threads — each gets its own DuckDB
+    cursor.
     """
-    syms = _list_symbols()
-    if not syms:
-        return []
-
-    cached = _assets_cache_get(syms)
-    if cached is not None:
-        return cached
-
-    con = db()
-    rows = []
-    for s in syms:
-        glob = str(ASSET_ROOT / s / "bars_1min" / "**" / "*.parquet")
-        # `glob=?` would force a string, but read_parquet wants a literal.
-        # We control `s` via _list_symbols() (filesystem-enumerated), so no
-        # injection surface.
-        sql_summary = f"""
+    glob = str(ASSET_ROOT / symbol / "bars_1min" / "**" / "*.parquet")
+    try:
+        con = db()
+        r = con.execute(f"""
             SELECT
-                COUNT(*)                                         AS bars,
-                MIN(ts_utc)                                      AS first_bar,
-                MAX(ts_utc)                                      AS last_bar,
+                COUNT(*)    AS bars,
+                MIN(ts_utc) AS first_bar,
+                MAX(ts_utc) AS last_bar,
                 COUNT(DISTINCT CAST(ts_utc AT TIME ZONE 'UTC' AS DATE)) AS trading_days
             FROM read_parquet('{glob}', hive_partitioning=true)
-        """
-        r = con.execute(sql_summary).fetchone()
+        """).fetchone()
         bars, first_bar, last_bar, trading_days = r
         if not bars:
-            # Symbol directory exists but no parquet written yet (ingest in-flight).
-            continue
+            return None
 
-        last = con.execute(
-            f"""
+        last = con.execute(f"""
             SELECT close, volume
             FROM read_parquet('{glob}', hive_partitioning=true)
             ORDER BY ts_utc DESC LIMIT 1
-            """
-        ).fetchone()
+        """).fetchone()
 
-        # Prior-session close for change%
-        prev = con.execute(
-            f"""
+        prev = con.execute(f"""
             WITH src AS (
                 SELECT * FROM read_parquet('{glob}', hive_partitioning=true)
             ),
@@ -186,29 +176,75 @@ def list_assets():
             FROM src, last_day
             WHERE CAST(ts_utc AT TIME ZONE 'America/New_York' AS DATE) < last_day.d
             ORDER BY ts_utc DESC LIMIT 1
-            """
-        ).fetchone()
+        """).fetchone()
+    except Exception:
+        # Race with ingest (file being written, directory half-created, …).
+        # Return None and let the next poll pick it up.
+        return None
 
-        last_close = last[0] if last else None
-        prev_close = prev[0] if prev else None
-        chg = last_close - prev_close if (last_close and prev_close) else None
-        chg_pct = (chg / prev_close * 100) if chg is not None and prev_close else None
+    last_close = last[0] if last else None
+    prev_close = prev[0] if prev else None
+    chg = last_close - prev_close if (last_close and prev_close) else None
+    chg_pct = (chg / prev_close * 100) if chg is not None and prev_close else None
 
-        rows.append({
-            "symbol": s,
-            "bars": int(bars),
-            "first_bar": first_bar.isoformat() if first_bar else None,
-            "last_bar": last_bar.isoformat() if last_bar else None,
-            "trading_days": int(trading_days),
-            "last_price": float(last_close) if last_close else None,
-            "last_volume": int(last[1]) if last else None,
-            "prev_close": float(prev_close) if prev_close else None,
-            "change": float(chg) if chg is not None else None,
-            "change_pct": float(chg_pct) if chg_pct is not None else None,
-        })
+    return {
+        "symbol": symbol,
+        "bars": int(bars),
+        "first_bar": first_bar.isoformat() if first_bar else None,
+        "last_bar": last_bar.isoformat() if last_bar else None,
+        "trading_days": int(trading_days),
+        "last_price": float(last_close) if last_close else None,
+        "last_volume": int(last[1]) if last else None,
+        "prev_close": float(prev_close) if prev_close else None,
+        "change": float(chg) if chg is not None else None,
+        "change_pct": float(chg_pct) if chg_pct is not None else None,
+    }
 
-    _assets_cache_set(syms, rows)
-    return rows
+
+# Thread pool for parallel cache-miss fills. DuckDB cursors are thread-safe
+# as long as each thread uses its own cursor (see `db()`).
+_assets_executor = cf.ThreadPoolExecutor(max_workers=8, thread_name_prefix="assets")
+
+
+@app.get("/api/assets")
+def list_assets():
+    """Summary row per asset: bars, date range, last price, last change%.
+
+    Per-symbol cache keyed on manifest.jsonl (mtime, size). A symbol's row
+    only changes when a new month is appended to its manifest, so cache hits
+    are effectively free. Misses are filled in parallel (8 workers). This
+    keeps a fresh dashboard load O(new-or-changed symbols) even while an
+    ingest is running.
+    """
+    syms = _list_symbols()
+    if not syms:
+        return []
+
+    # Pass 1: return cached rows, collect misses.
+    rows: list[dict | None] = []
+    misses: list[tuple[int, str]] = []
+    for i, s in enumerate(syms):
+        cached = _symbol_row_cached(s)
+        if cached is not None:
+            rows.append(cached)
+        else:
+            rows.append(None)
+            misses.append((i, s))
+
+    if misses:
+        # Pass 2: compute misses in parallel, then slot back into `rows`.
+        futures = {
+            _assets_executor.submit(_compute_asset_row, s): (i, s)
+            for (i, s) in misses
+        }
+        for fut in cf.as_completed(futures):
+            i, s = futures[fut]
+            row = fut.result()
+            if row is not None:
+                _symbol_row_store(s, row)
+                rows[i] = row
+
+    return [r for r in rows if r is not None]
 
 
 def _symbol_or_404(symbol: str) -> str:
@@ -232,8 +268,13 @@ def bars(
         raise HTTPException(400, f"Unknown timeframe {tf}")
 
     interval = TF_INTERVAL[tf]
-    where = ["symbol = ?"]
-    params: list = [symbol]
+
+    # Per-symbol glob avoids the aggregate `bars` view scanning every parquet
+    # in the warehouse. Without this, queries got O(total_symbols) slow.
+    glob = str(ASSET_ROOT / symbol / "bars_1min" / "**" / "*.parquet")
+
+    where = ["1=1"]
+    params: list = []
     if start:
         where.append("ts_utc >= ?")
         params.append(start)
@@ -251,7 +292,10 @@ def bars(
         bucket_expr = f"time_bucket(INTERVAL '{interval}', ts_utc)"
 
     sql = f"""
-        WITH resampled AS (
+        WITH src AS (
+            SELECT * FROM read_parquet('{glob}', hive_partitioning=true)
+        ),
+        resampled AS (
             SELECT
                 {bucket_expr} AS ts,
                 arg_min(open, ts_utc)  AS open,
@@ -261,7 +305,7 @@ def bars(
                 SUM(volume)            AS volume,
                 SUM(close * volume) / NULLIF(SUM(volume), 0) AS vwap_bucket,
                 COUNT(*)               AS n_raw
-            FROM bars
+            FROM src
             WHERE {where_sql}
             GROUP BY 1
         )
@@ -574,11 +618,30 @@ def raw_bars(
 
 @app.get("/api/overview")
 def overview():
-    """Dashboard-wide numbers for the header."""
+    """Dashboard-wide numbers for the header.
+
+    Avoids a full-warehouse scan by summing `rows` from each symbol's
+    manifest.jsonl — those are plain JSON lines written at ingest time, so
+    this is O(n_symbols × n_months) of cheap disk reads, not a parquet scan.
+    """
     syms = _list_symbols()
     if not syms:
         return {"n_symbols": 0, "n_bars_total": 0}
-    total = db().execute("SELECT COUNT(*) FROM bars").fetchone()[0]
+
+    total = 0
+    for s in syms:
+        man = ASSET_ROOT / s / "manifest.jsonl"
+        if not man.exists():
+            continue
+        try:
+            with man.open() as f:
+                for line in f:
+                    try:
+                        total += int(json.loads(line).get("rows") or 0)
+                    except (ValueError, json.JSONDecodeError):
+                        continue
+        except OSError:
+            continue
     return {"n_symbols": len(syms), "n_bars_total": int(total), "symbols": syms}
 
 
