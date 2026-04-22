@@ -13,20 +13,25 @@ Reports per-indicator max abs diff vs reference.
 from __future__ import annotations
 import importlib
 import math
+import os
 from pathlib import Path
 
 import duckdb
 import numpy as np
 import pandas as pd
+from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT / ".env")
+DATA_ROOT = Path(os.getenv("DATA_ROOT") or ROOT)
+ASSET_ROOT = DATA_ROOT / "ASSET"
 
 # ---- pull daily OHLCV from DB, same logic as /api/assets/{sym}/bars?tf=1D ----
 con = duckdb.connect()
 df = con.sql(f"""
     WITH src AS (
         SELECT * FROM read_parquet(
-            '{ROOT}/ASSET/MSFT/bars_1min/**/*.parquet',
+            '{ASSET_ROOT}/MSFT/bars_1min/**/*.parquet',
             hive_partitioning=true)
     )
     SELECT

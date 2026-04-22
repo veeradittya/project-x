@@ -1,1 +1,0 @@
-{"path": "ASSET/TLT/bars_1d.parquet", "sha256": "15afae60a434cad848d3c94414df3f5227c6ba71dd569fa7e81f8bd4504ba81b", "rows": 2839, "min_ts_date": "2015-01-02", "max_ts_date": "2026-04-17", "symbol": "TLT", "kind": "bars_1d", "source": "yfinance", "yfinance_ticker": "TLT", "written_at": "2026-04-19T21:16:21.369673+00:00"}

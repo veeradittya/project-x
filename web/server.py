@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+import os
 import threading
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,12 +18,18 @@ from typing import Optional
 import duckdb
 import numpy as np
 import pandas as pd
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSET_ROOT = ROOT / "ASSET"
+load_dotenv(ROOT / ".env")
+# DATA_ROOT points at the immutable warehouse (ASSET/ + MACRO/).
+# Defaults to the repo root for backward compatibility; set to the external SSD
+# in .env (DATA_ROOT=/Volumes/Extreme SSD/project-x-data) for production.
+DATA_ROOT = Path(os.getenv("DATA_ROOT") or ROOT)
+ASSET_ROOT = DATA_ROOT / "ASSET"
 WEB = ROOT / "web"
 STATIC = WEB / "static"
 
@@ -699,7 +706,7 @@ def events(symbol: str):
 
 
 # ---- MACRO endpoints ---------------------------------------------------
-MACRO_ROOT = ROOT / "MACRO"
+MACRO_ROOT = DATA_ROOT / "MACRO"
 
 
 def _list_macro_series() -> list[str]:

@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import io
 import json
+import os
 import subprocess
 from datetime import date
 from pathlib import Path
@@ -20,8 +21,12 @@ import duckdb
 import numpy as np
 import pandas as pd
 import yfinance as yf
+from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT / ".env")
+DATA_ROOT = Path(os.getenv("DATA_ROOT") or ROOT)
+ASSET_ROOT = DATA_ROOT / "ASSET"
 np.random.seed(42)
 
 
@@ -35,7 +40,7 @@ def ours_daily(symbol: str) -> pd.DataFrame:
           MIN(low)               AS low,
           arg_max(close, ts_utc) AS close,
           SUM(volume)            AS volume
-        FROM read_parquet('{ROOT}/ASSET/{symbol}/bars_1min/**/*.parquet',
+        FROM read_parquet('{ASSET_ROOT}/{symbol}/bars_1min/**/*.parquet',
                           hive_partitioning=true)
         GROUP BY 1 ORDER BY 1
     """).df()

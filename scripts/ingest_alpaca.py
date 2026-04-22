@@ -34,13 +34,16 @@ from alpaca.data.timeframe import TimeFrame
 from alpaca.data.enums import DataFeed
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSET_ROOT = ROOT / "ASSET"
+load_dotenv(ROOT / ".env")
+# DATA_ROOT points at the immutable warehouse root (ASSET/, MACRO/). Defaults
+# to the repo root; set DATA_ROOT=/Volumes/Extreme SSD/project-x-data in .env
+# to route writes to the external SSD.
+DATA_ROOT = Path(os.getenv("DATA_ROOT") or ROOT)
+ASSET_ROOT = DATA_ROOT / "ASSET"
 ET = "America/New_York"
 
 # Alpaca free tier: 200 req/min. We stay at 180 for headroom.
 DEFAULT_RPM = 180
-
-load_dotenv(ROOT / ".env")
 
 
 class RateLimiter:

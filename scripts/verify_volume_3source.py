@@ -19,14 +19,19 @@ Rationale for using FINRA as 3rd source:
   without any one being a copy of another.
 """
 from __future__ import annotations
+import os
 from pathlib import Path
 
 import duckdb
 import numpy as np
 import pandas as pd
 import yfinance as yf
+from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT / ".env")
+DATA_ROOT = Path(os.getenv("DATA_ROOT") or ROOT)
+ASSET_ROOT = DATA_ROOT / "ASSET"
 np.random.seed(42)
 
 
@@ -36,7 +41,7 @@ def ours_daily(symbol: str) -> pd.DataFrame:
         SELECT
           CAST(ts_utc AT TIME ZONE 'America/New_York' AS DATE) AS day,
           SUM(volume) AS ours_vol
-        FROM read_parquet('{ROOT}/ASSET/{symbol}/bars_1min/**/*.parquet',
+        FROM read_parquet('{ASSET_ROOT}/{symbol}/bars_1min/**/*.parquet',
                           hive_partitioning=true)
         GROUP BY 1 ORDER BY 1
     """).df()
@@ -60,7 +65,7 @@ def finra_daily(symbol: str) -> pd.DataFrame:
         SELECT ts_date AS day,
                total_volume   AS finra_total_vol,
                short_volume   AS finra_short_vol
-        FROM read_parquet('{ROOT}/ASSET/{symbol}/short_volume.parquet')
+        FROM read_parquet('{ASSET_ROOT}/{symbol}/short_volume.parquet')
     """).df()
     df["day"] = pd.to_datetime(df["day"]).dt.date
     return df

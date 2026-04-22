@@ -26,3 +26,10 @@ logs/
 
 # ---- Claude Code local settings (keep launch.json, drop personal settings) ----
 .claude/settings.local.json
+
+# ---- data warehouse (lives on external SSD — see DATA_ROOT in .env) ----
+# These directories were tracked until the SSD migration; they're now ignored
+# so fresh clones don't accidentally repopulate them in the repo.
+ASSET/
+MACRO/
+warehouse.duckdb

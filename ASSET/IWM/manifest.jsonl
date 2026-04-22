@@ -1,1 +1,0 @@
-{"path": "ASSET/IWM/bars_1d.parquet", "sha256": "444c6e82c4a793d699cb1857d6a6f01c737bdaff65ca635c9c353211cf5fda1b", "rows": 2839, "min_ts_date": "2015-01-02", "max_ts_date": "2026-04-17", "symbol": "IWM", "kind": "bars_1d", "source": "yfinance", "yfinance_ticker": "IWM", "written_at": "2026-04-19T21:16:21.029960+00:00"}

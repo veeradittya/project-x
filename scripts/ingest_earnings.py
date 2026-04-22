@@ -20,9 +20,12 @@ from pathlib import Path
 
 import pandas as pd
 import yfinance as yf
+from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSET_ROOT = ROOT / "ASSET"
+load_dotenv(ROOT / ".env")
+DATA_ROOT = Path(os.getenv("DATA_ROOT") or ROOT)
+ASSET_ROOT = DATA_ROOT / "ASSET"
 
 
 def sha256_of_file(path: Path) -> str:

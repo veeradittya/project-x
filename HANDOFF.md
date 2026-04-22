@@ -12,6 +12,10 @@ Read this entire document before touching anything. It tells you:
 If something in the repo disagrees with this document, trust the code and update
 the doc. The user works out of `/Users/veeradittya/Desktop/DATA/`.
 
+**Data lives on an external SSD**, not in the repo. `ASSET/` and `MACRO/` are on
+`/Volumes/Extreme SSD/project-x-data/` (APFS). Code paths resolve via the
+`DATA_ROOT` env var in `.env` (defaults to the repo root if unset). See §2.
+
 ---
 
 ## 1. What this is
@@ -31,8 +35,18 @@ macro and corporate-event data, queryable through a polished single-user web UI.
 
 ## 2. Architecture
 
+### Split: code in repo, data on external SSD
+
 ```
-DATA/
+/Users/veeradittya/Desktop/DATA/    # git repo (code + configs only)
+├── .env                            # DATA_ROOT, Alpaca + FRED keys — NEVER commit
+├── scripts/                        # (see below)
+├── web/                            # (see below)
+├── warehouse.duckdb                # regenerable query layer (delete to rebuild)
+├── logs/                           # runtime logs from ingest_sp1500.py
+└── HANDOFF.md / README.md / …
+
+/Volumes/Extreme SSD/project-x-data/   # APFS — the data lives here
 ├── ASSET/                          # per-symbol immutable parquet store
 │   └── <SYMBOL>/
 │       ├── bars_1min/              # Hive-partitioned: year=YYYY/month=MM/bars.parquet
@@ -43,8 +57,16 @@ DATA/
 │       ├── metadata.json           # cached yfinance .info
 │       ├── manifest.jsonl          # {path, sha256, rows, min_ts, max_ts, …} per file
 │       └── verification_report.jsonl
-├── MACRO/<SERIES_ID>/series.parquet  # FRED series (DFF, DGS10, CPIAUCSL, …)
-├── scripts/
+└── MACRO/<SERIES_ID>/series.parquet  # FRED series (DFF, DGS10, CPIAUCSL, …)
+```
+
+Both code and server resolve the data location via the `DATA_ROOT` env var
+(loaded from `.env` by every ingest script and by `web/server.py`). If
+`DATA_ROOT` is empty, everything falls back to the repo root — so a fresh clone
+without the SSD attached will still start up (it'll just see zero symbols).
+
+```
+scripts/
 │   ├── ingest_alpaca.py            # 1-min bars from Alpaca SIP (free tier)
 │   ├── ingest_daily_bars.py        # daily bars from yfinance (ETFs/indexes)
 │   ├── ingest_earnings.py          # past + scheduled earnings from yfinance
@@ -70,11 +92,6 @@ DATA/
 │       ├── css/app.css
 │       ├── js/app.js               # single-file frontend, no build step
 │       └── vendor/lightweight-charts.standalone.production.js
-├── warehouse.duckdb                # regenerable query layer (delete to rebuild)
-├── logs/                           # 🆕 written by ingest_sp1500.py at runtime
-│   ├── sp1500_progress.jsonl
-│   └── sp1500_errors.jsonl
-└── .env                            # Alpaca + FRED keys — NEVER commit
 ```
 
 ### Invariants that must not be violated
@@ -101,7 +118,12 @@ These are not suggestions. Breaking them silently corrupts the ledger.
    `verify_volume_3source.py`. **Do not "fix" this.**
 6. **No secrets in git.** `.env` stays in `.gitignore`. If you need to run
    ingest scripts, expect the user to have the keys loaded locally.
-7. **Lightweight Charts v4.2.2**, not v5. v4 has no vertical-line primitive;
+7. **APFS-formatted `DATA_ROOT`.** The external SSD (`/Volumes/Extreme SSD`) is
+   APFS — **not exFAT**. exFAT was tried and rejected: it ignores `chmod 444`
+   (destroys Invariant 1), inflates small files ~9× due to 128 KB cluster
+   sizing, and errors on `fchflags`. If the drive ever remounts as exFAT the
+   warehouse is broken — halt and reformat before resuming ingest.
+8. **Lightweight Charts v4.2.2**, not v5. v4 has no vertical-line primitive;
    earnings events are rendered via a DOM overlay (`evt-overlay` in CSS +
    `renderEarningsOverlay` in `app.js`). Do not "upgrade" LWC without talking
    to the user — there's working multi-pane sync and crosshair sync code
@@ -128,6 +150,9 @@ FRED                              ──▶  MACRO/<SERIES>/series.parquet
 Running locally:
 
 ```bash
+# 1. Attach the Extreme SSD (APFS, mounts at /Volumes/Extreme SSD/).
+# 2. Confirm .env has DATA_ROOT=/Volumes/Extreme SSD/project-x-data
+# 3. Start the server:
 source .venv/bin/activate
 uvicorn web.server:app --host 127.0.0.1 --port 8001
 # preview-managed; see .claude/launch.json
@@ -147,7 +172,12 @@ All of these were debated in earlier sessions and the decision stuck.
   snapshot; we're OK with Wikipedia's survivor-biased view for now.
 - **Repo**: **public** on GitHub (`veeradittya/project-x`). The user chose
   this explicitly. Data (~22 MB for MSFT's 1-min bars) is committed.
-- **Disk budget**: **< 21 GB** total for the full 1500.
+- **Disk budget**: **< 21 GB** total for the full 1500. Budget is measured
+  against `du -sh /Volumes/Extreme\ SSD/project-x-data/ASSET/` — the 931 GB
+  SSD has plenty of headroom, but the 21 GB ceiling is a discipline signal,
+  not a capacity concern.
+- **Storage location**: external SSD (`Extreme SSD`, APFS). Reformatted from
+  exFAT in this session — see Invariant 7.
 - **Staging**: sequential. Each stage checkpoints before the next runs.
 - **Volume discrepancy vs Yahoo**: accepted as normal. Documented in Invariant 5.
 - **Earnings surprise**: displayed in **dollars**, not percent (user preference).
@@ -190,7 +220,7 @@ for s in syms:
 (yfinance doesn't publish a rate limit but rewards ~1 req/sec.)
 
 **Checkpoint** (required before Stage 2):
-- `du -sh ASSET/` ≤ 11.5 GB
+- `du -sh "/Volumes/Extreme SSD/project-x-data/ASSET/"` ≤ 11.5 GB
 - Sample-audit with `python scripts/verify_volume_3source.py SYM …` on 10 random S&P 500 symbols — close diffs ≤ $0.20 median, volume ratio 70–95%
 - Spot-check the dashboard sidebar: `S&P 500: ~503/503`
 
@@ -209,7 +239,7 @@ disk ≤ ~16.5 GB.
 python scripts/ingest_sp1500.py --tier sp600
 ```
 
-**Budget decision at this gate**: if `du -sh ASSET/` after Stage 2 is > 16.5 GB,
+**Budget decision at this gate**: if `du -sh "/Volumes/Extreme SSD/project-x-data/ASSET/"` after Stage 2 is > 16.5 GB,
 SmallCap 600 1-min bars may push over the 21 GB cap. Fallback: do daily-only
 for the SmallCap tier. You'll need to either:
 - Skip the Alpaca 1-min call and write daily bars from yfinance per symbol, or
@@ -225,7 +255,7 @@ After all three tiers:
 
 1. `python scripts/build_warehouse.py` — regenerates `warehouse.duckdb`
 2. Random 30-symbol audit with `verify_volume_3source.py`
-3. `du -sh ASSET/` — should be ≤ 21 GB
+3. `du -sh "/Volumes/Extreme SSD/project-x-data/ASSET/"` — should be ≤ 21 GB
 4. Load the dashboard; all three progress bars should read ≥ 95% done
 5. Update `HANDOFF.md` with the actual final size, error count, and any
    delisted/missing tickers
@@ -234,7 +264,11 @@ After all three tiers:
 
 ## 5. Pitfalls — things that already burned prior sessions
 
-- **Do not commit `.env`.** Alpaca API keys. Already in `.gitignore`.
+- **Do not commit `.env`.** Alpaca + FRED API keys and `DATA_ROOT`. Already in `.gitignore`.
+- **Confirm SSD is mounted before any ingest.** If `/Volumes/Extreme SSD/`
+  isn't there, scripts will silently fall back to the repo path and pollute
+  the working copy. Add `ls "/Volumes/Extreme SSD/project-x-data/ASSET" || exit 1`
+  to any long-running shell.
 - **Do not re-ingest an existing month.** `ingest_alpaca.write_month_parquet`
   raises `FileExistsError`. To refresh: `chmod u+w <path>` then `rm`, plus
   delete the matching manifest line. This is intentional friction.

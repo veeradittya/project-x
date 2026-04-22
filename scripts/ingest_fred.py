@@ -21,8 +21,9 @@ import pandas as pd
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
-MACRO_ROOT = ROOT / "MACRO"
 load_dotenv(ROOT / ".env")
+DATA_ROOT = Path(os.getenv("DATA_ROOT") or ROOT)
+MACRO_ROOT = DATA_ROOT / "MACRO"
 
 API_BASE = "https://api.stlouisfed.org/fred/series/observations"
 
