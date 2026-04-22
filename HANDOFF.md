@@ -172,10 +172,15 @@ All of these were debated in earlier sessions and the decision stuck.
   snapshot; we're OK with Wikipedia's survivor-biased view for now.
 - **Repo**: **public** on GitHub (`veeradittya/project-x`). The user chose
   this explicitly. Data (~22 MB for MSFT's 1-min bars) is committed.
-- **Disk budget**: **< 21 GB** total for the full 1500. Budget is measured
-  against `du -sh /Volumes/Extreme\ SSD/project-x-data/ASSET/` — the 931 GB
-  SSD has plenty of headroom, but the 21 GB ceiling is a discipline signal,
-  not a capacity concern.
+- **Disk budget**: **< 100 GB** total for the full 1500. Realistic projection
+  at 1-min resolution is ~22 GB (19.5 GB bars + 2.3 GB events + MACRO); the
+  100 GB ceiling is a ~4.5× safety margin for surprises (dual-class tickers,
+  extended-hours expansions, quote data experiments). Measured against
+  `du -sh /Volumes/Extreme\ SSD/project-x-data/`.
+- **Resolution**: **1-min bars for every symbol**, no tier-based fallback.
+  Alpaca's free tier max is 1-min; true tick data (trades/quotes) would be
+  8–12 TB for S&P 1500 and is out of scope. There is no `--daily-only` path —
+  the SmallCap 600 gets the same 1-min treatment as large caps.
 - **Storage location**: external SSD (`Extreme SSD`, APFS). Reformatted from
   exFAT in this session — see Invariant 7.
 - **Staging**: sequential. Each stage checkpoints before the next runs.
@@ -231,7 +236,7 @@ python scripts/ingest_sp1500.py --tier sp400
 ```
 
 Same earnings/actions loop with `sp400.csv`. Checkpoint as above, cumulative
-disk ≤ ~16.5 GB.
+disk ≤ ~17 GB projected.
 
 ### Stage 3 — S&P SmallCap 600 (~4 GB, ~4 hrs)
 
@@ -239,15 +244,10 @@ disk ≤ ~16.5 GB.
 python scripts/ingest_sp1500.py --tier sp600
 ```
 
-**Budget decision at this gate**: if `du -sh "/Volumes/Extreme SSD/project-x-data/ASSET/"` after Stage 2 is > 16.5 GB,
-SmallCap 600 1-min bars may push over the 21 GB cap. Fallback: do daily-only
-for the SmallCap tier. You'll need to either:
-- Skip the Alpaca 1-min call and write daily bars from yfinance per symbol, or
-- Add a `--daily-only` flag to `ingest_sp1500.py` that bypasses
-  `backfill()` and calls `ingest_daily_bars.py` equivalent.
-
-Talk to the user before picking the fallback — they may prefer to accept a
-slightly higher disk budget and keep 1-min everywhere.
+No fallback tier: small caps get 1-min bars like everyone else. Projected
+cumulative ~22 GB, well under the 100 GB cap. If cumulative is tracking past
+50 GB after Stage 2, stop and investigate before continuing — that's 2× the
+model and something's off.
 
 ### Stage 4 — full sweep verification
 
@@ -255,7 +255,7 @@ After all three tiers:
 
 1. `python scripts/build_warehouse.py` — regenerates `warehouse.duckdb`
 2. Random 30-symbol audit with `verify_volume_3source.py`
-3. `du -sh "/Volumes/Extreme SSD/project-x-data/ASSET/"` — should be ≤ 21 GB
+3. `du -sh "/Volumes/Extreme SSD/project-x-data/ASSET/"` — should be ≤ 100 GB (projected ~22 GB)
 4. Load the dashboard; all three progress bars should read ≥ 95% done
 5. Update `HANDOFF.md` with the actual final size, error count, and any
    delisted/missing tickers

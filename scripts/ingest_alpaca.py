@@ -193,7 +193,7 @@ def write_month_parquet(
     os.chmod(out_path, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
 
     entry = {
-        "path": str(out_path.relative_to(ROOT)),
+        "path": str(out_path.relative_to(DATA_ROOT)),
         "sha256": sha256_of_file(out_path),
         "rows": int(len(out)),
         "min_ts_utc": out["ts_utc"].min().isoformat(),

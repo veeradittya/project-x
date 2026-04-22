@@ -230,7 +230,7 @@ def main(symbol: str) -> None:
     rpt_path = ASSET_ROOT / symbol / "verification_report.jsonl"
     with rpt_path.open("a") as f:
         f.write(json.dumps(report, default=str) + "\n")
-    print(f"\nFull report appended to {rpt_path.relative_to(ROOT)}")
+    print(f"\nFull report appended to {rpt_path}")
 
 
 if __name__ == "__main__":

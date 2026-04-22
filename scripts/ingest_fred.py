@@ -108,7 +108,7 @@ def ingest(series_id: str, api_key: str) -> None:
     os.chmod(out_path, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
 
     entry = {
-        "path": str(out_path.relative_to(ROOT)),
+        "path": str(out_path.relative_to(DATA_ROOT)),
         "sha256": sha256_of_file(out_path),
         "rows": int(len(df)),
         "min_ts_date": str(df["ts_date"].min()),
