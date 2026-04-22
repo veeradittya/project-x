@@ -58,6 +58,33 @@ def db() -> duckdb.DuckDBPyConnection:
     return _ensure_base().cursor()
 
 
+# ---------- /api/assets response cache --------------------------------------
+# During active ingest the dashboard polls this endpoint frequently and each
+# call is 3 DuckDB scans per symbol. Cache the response for 30s, keyed by the
+# sorted tuple of symbols — so the cache invalidates the moment a new symbol
+# appears on disk.
+_assets_cache: dict = {"key": None, "rows": None, "expires_at": 0.0}
+_assets_cache_lock = threading.Lock()
+_ASSETS_CACHE_TTL = 30.0  # seconds
+
+
+def _assets_cache_get(syms: list[str]):
+    import time
+    key = tuple(syms)
+    with _assets_cache_lock:
+        if _assets_cache["key"] == key and _assets_cache["expires_at"] > time.time():
+            return _assets_cache["rows"]
+    return None
+
+
+def _assets_cache_set(syms: list[str], rows: list):
+    import time
+    with _assets_cache_lock:
+        _assets_cache["key"] = tuple(syms)
+        _assets_cache["rows"] = rows
+        _assets_cache["expires_at"] = time.time() + _ASSETS_CACHE_TTL
+
+
 # ---------- FastAPI app ------------------------------------------------------
 app = FastAPI(title="Asset Ledger", version="0.1.0")
 app.mount("/static", StaticFiles(directory=str(STATIC)), name="static")
@@ -98,46 +125,68 @@ def health():
 
 @app.get("/api/assets")
 def list_assets():
-    """Summary row per asset: bars, date range, last price, last change%."""
+    """Summary row per asset: bars, date range, last price, last change%.
+
+    Queries each symbol against its own parquet glob rather than the aggregate
+    `bars` view. Before this change, every query scanned every parquet under
+    ASSET/ — which degraded from ~0.1s to >30s as the warehouse grew from 1
+    to hundreds of symbols. Per-symbol globs keep each query bounded.
+
+    Results are cached for 30s so repeated dashboard polls (sidebar refresh,
+    overview panel) don't re-scan even the per-symbol parquets.
+    """
     syms = _list_symbols()
     if not syms:
         return []
 
-    rows = []
+    cached = _assets_cache_get(syms)
+    if cached is not None:
+        return cached
+
     con = db()
+    rows = []
     for s in syms:
-        r = con.execute(
-            """
+        glob = str(ASSET_ROOT / s / "bars_1min" / "**" / "*.parquet")
+        # `glob=?` would force a string, but read_parquet wants a literal.
+        # We control `s` via _list_symbols() (filesystem-enumerated), so no
+        # injection surface.
+        sql_summary = f"""
             SELECT
-                COUNT(*) AS bars,
-                MIN(ts_utc) AS first_bar,
-                MAX(ts_utc) AS last_bar,
+                COUNT(*)                                         AS bars,
+                MIN(ts_utc)                                      AS first_bar,
+                MAX(ts_utc)                                      AS last_bar,
                 COUNT(DISTINCT CAST(ts_utc AT TIME ZONE 'UTC' AS DATE)) AS trading_days
-            FROM bars WHERE symbol = ?
-            """,
-            [s],
-        ).fetchone()
+            FROM read_parquet('{glob}', hive_partitioning=true)
+        """
+        r = con.execute(sql_summary).fetchone()
         bars, first_bar, last_bar, trading_days = r
+        if not bars:
+            # Symbol directory exists but no parquet written yet (ingest in-flight).
+            continue
 
         last = con.execute(
-            "SELECT close, volume FROM bars WHERE symbol = ? ORDER BY ts_utc DESC LIMIT 1",
-            [s],
+            f"""
+            SELECT close, volume
+            FROM read_parquet('{glob}', hive_partitioning=true)
+            ORDER BY ts_utc DESC LIMIT 1
+            """
         ).fetchone()
 
         # Prior-session close for change%
         prev = con.execute(
-            """
-            WITH last_day AS (
+            f"""
+            WITH src AS (
+                SELECT * FROM read_parquet('{glob}', hive_partitioning=true)
+            ),
+            last_day AS (
                 SELECT MAX(CAST(ts_utc AT TIME ZONE 'America/New_York' AS DATE)) AS d
-                FROM bars WHERE symbol = ?
+                FROM src
             )
             SELECT close
-            FROM bars, last_day
-            WHERE symbol = ?
-              AND CAST(ts_utc AT TIME ZONE 'America/New_York' AS DATE) < last_day.d
+            FROM src, last_day
+            WHERE CAST(ts_utc AT TIME ZONE 'America/New_York' AS DATE) < last_day.d
             ORDER BY ts_utc DESC LIMIT 1
-            """,
-            [s, s],
+            """
         ).fetchone()
 
         last_close = last[0] if last else None
@@ -157,6 +206,8 @@ def list_assets():
             "change": float(chg) if chg is not None else None,
             "change_pct": float(chg_pct) if chg_pct is not None else None,
         })
+
+    _assets_cache_set(syms, rows)
     return rows
 
 
